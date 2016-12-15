@@ -1,0 +1,8 @@
+[ccs]
+org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
+
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-subsystem-console
+
+
+
