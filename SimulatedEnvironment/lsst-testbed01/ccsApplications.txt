@@ -9,6 +9,6 @@ executable.RunDemoSubsystem = org-lsst-ccs-subsystem-demo-main
 executable.RunDemoConfigurableSubsystem = org-lsst-ccs-subsystem-demo-main
 executable.RunDemoSubsystemWithMonitoring = org-lsst-ccs-subsystem-demo-main
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-ts8-main
-executable.JythonInterpreterConsole = org-lsst-ccs-subsystem-ts8-main
+executable.JythonConsole = org-lsst-ccs-subsystem-ts8-main
 
 
