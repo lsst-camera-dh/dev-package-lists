@@ -1,0 +1,14 @@
+[ccs]
+org-lsst-ccs-subsystem-teststand-main = 1.1.19-SNAPSHOT
+org-lsst-ccs-subsystem-ts8-main = 1.0.6-SNAPSHOT
+org-lsst-ccs-subsystem-demo-main = 4.0.3-SNAPSHOT
+
+executable.tsSim = org-lsst-ccs-subsystem-teststand-main
+executable.RunTS8Subsystem = org-lsst-ccs-subsystem-ts8-main
+executable.RunDemoSubsystem = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring = org-lsst-ccs-subsystem-demo-main
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-ts8-main
+executable.JythonInterpreterConsole = org-lsst-ccs-subsystem-ts8-main
+
+
