@@ -1,0 +1,15 @@
+[ccs]
+org-lsst-ccs-localdb-main = 3.0.1
+org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
+org-lsst-ccs-subsystem-doorman-main = 1.0.0
+
+executable.TrendingIngestModule = org-lsst-ccs-localdb-main
+executable.LocalRestServices = org-lsst-ccs-localdb-main
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.Tunnel = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-subsystem-console
+executable.JythonConsole = org-lsst-ccs-subsystem-console
+executable.Doorman = org-lsst-ccs-subsystem-doorman-main
+
+
+
