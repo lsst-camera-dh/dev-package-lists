@@ -1,8 +1,9 @@
 [ccs]
 org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
+org-lsst-ccs-subsystem-power-gui = 1.1.0
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
-executable.CCS-Console = org-lsst-ccs-subsystem-console
-
+executable.CCS-Console = org-lsst-ccs-subsystem-power-gui
+executable.REBPSControlGui = org-lsst-ccs-subsystem-power-gui
 
 
