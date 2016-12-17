@@ -3,7 +3,7 @@ org-lsst-ccs-subsystem-rafts-main = 1.7.1
 org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
-executable.CCS-Console = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-subsystem-rafts-main
 executable.Reb4Run = org-lsst-ccs-subsystem-rafts-main
 executable.Raft4Run = org-lsst-ccs-subsystem-rafts-main
 executable.Raft5Run = org-lsst-ccs-subsystem-rafts-main
