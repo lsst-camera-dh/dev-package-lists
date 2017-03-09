@@ -1,10 +1,11 @@
 [ccs]
-org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
-org-lsst-ccs-subsystem-power-gui = 1.1.0
-org-lsst-ccs-subsystem-rafts-gui = 1.7.1
+org-lsst-ccs-subsystem-console = 4.0.6
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.0-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
-executable.CCS-Console = org-lsst-ccs-subsystem-rafts-gui
-executable.REBPSControlGui = org-lsst-ccs-subsystem-power-gui
+executable.Tunnel = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
+
+#executable.REBPSControlGui = org-lsst-ccs-ir2-ts8-software-gui
 
 
