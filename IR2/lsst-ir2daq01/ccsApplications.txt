@@ -1,15 +1,18 @@
 [ccs]
-org-lsst-ccs-ir2-ts8-software-gui = 1.0.0-SNAPSHOT
-org-lsst-ccs-subsystem-rafts-main = 1.7.5-toolkit-4.0.6-SNAPSHOT
-org-lsst-ccs-subsystem-rafts-gui = 1.7.5-toolkit-4.0.6-SNAPSHOT
-org-lsst-ccs-subsystem-console = 4.0.6-SNAPSHOT
+org-lsst-ccs-subsystem-rafts-main = 1.7.7-toolkit-4.0.9
+org-lsst-ccs-subsystem-rafts-gui = 1.7.7-toolkit-4.0.9
+org-lsst-ccs-subsystem-ts8-main = 1.0.12-toolkit-4.0.6
+org-lsst-ccs-subsystem-ts8-gui = 1.0.12-toolkit-4.0.6
+org-lsst-ccs-subsystem-console = 4.0.9
+org-lsst-ccs-subsystem-teststand-main = 1.1.22-toolkit4.0.6
+ccs-test-configurations = 1.0.0
+
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
-executable.Tunnel = org-lsst-ccs-subsystem-console
-executable.CCS-Console = org-lsst-ccs-subsystem-rafts-gui
+executable.CCS-Console = org-lsst-ccs-subsystem-ts8-gui
 executable.Reb4Run = org-lsst-ccs-subsystem-rafts-main
 executable.Raft4Run = org-lsst-ccs-subsystem-rafts-main
 executable.Raft5Run = org-lsst-ccs-subsystem-rafts-main
-
-
-
+executable.RunTS8Subsystem = org-lsst-ccs-subsystem-ts8-main
+executable.tsSim = org-lsst-ccs-subsystem-teststand-main
+symlink.etc = ccs-test-configurations-1.0.0
