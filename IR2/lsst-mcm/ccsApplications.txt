@@ -1,8 +1,8 @@
 [ccs]
-org-lsst-ccs-localdb-main = 3.0.1
-org-lsst-ccs-subsystem-console = 4.0.3-SNAPSHOT
-org-lsst-ccs-subsystem-doorman-main = 1.0.2
-org-lsst-ccs-subsystem-doorman-gui = 1.0.2
+org-lsst-ccs-localdb-main = 3.0.3
+org-lsst-ccs-subsystem-console = 4.0.9
+org-lsst-ccs-subsystem-doorman-main = 1.0.3
+org-lsst-ccs-subsystem-doorman-gui = 1.0.3
 
 executable.TrendingIngestModule = org-lsst-ccs-localdb-main
 executable.LocalRestServices = org-lsst-ccs-localdb-main
