@@ -1,0 +1,7 @@
+[ccs]
+org-lsst-ccs-subsystem-console = 4.0.9
+
+executable.JythonConsole = org-lsst-ccs-subsystem-console
+
+
+
