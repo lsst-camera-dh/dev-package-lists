@@ -1,10 +1,14 @@
 [ccs]
-org-lsst-ccs-subsystem-teststand-main = 1.1.22-toolkit4.0.6-SNAPSHOT
-org-lsst-ccs-subsystem-teststand-gui = 1.1.22-toolkit4.0.6-SNAPSHOT
+org-lsst-ccs-subsystem-power-main = 1.2.1-SNAPSHOT
+org-lsst-ccs-subsystem-power-gui = 1.2.1-SNAPSHOT
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.1-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-main = 1.2.0-SNAPSHOT
+org-lsst-ccs-subsystem-console = 4.0.11-SNAPSHOT
+ccs-test-configurations = master
 
-executable.ShellCommandConsole = org-lsst-ccs-subsystem-teststand-main
-executable.CCS-Console = org-lsst-ccs-subsystem-teststand-gui
-executable.ts = org-lsst-ccs-subsystem-teststand-main
-
-
-
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
+executable.REBPower = org-lsst-ccs-subsystem-power-main
+executable.REBPSControlGui = org-lsst-ccs-subsystem-power-gui
+executable.ts7-slac = org-lsst-ccs-subsystem-teststand-main
+symlink.etc = ccs-test-configurations-master/IR2/lsst-uno02
