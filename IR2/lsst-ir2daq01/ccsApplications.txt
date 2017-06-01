@@ -10,5 +10,6 @@ executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
 executable.Reb4Run = org-lsst-ccs-ir2-ts8-software-main
 executable.Raft4Run = org-lsst-ccs-ir2-ts8-software-main
 executable.Raft5Run = org-lsst-ccs-ir2-ts8-software-main
-executable.RunTS8Subsystem = org-lsst-ccs-ir2-ts8-software-main
+executable.aliveness-raft = org-lsst-ccs-ir2-ts8-software-main
+executable.ts8-raft = org-lsst-ccs-ir2-ts8-software-main
 symlink.etc = ccs-test-configurations-ETCCB-303/IR2/lsst-ir2daq01
