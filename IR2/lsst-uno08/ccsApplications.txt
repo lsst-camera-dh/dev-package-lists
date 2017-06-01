@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-subsystem-teststand-main = 1.2.0-SNAPSHOT
-org-lsst-ccs-subsystem-teststand-gui = 1.2.0-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-main = 1.2.0
+org-lsst-ccs-subsystem-teststand-gui = 1.2.0
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-teststand-main
 executable.CCS-Console = org-lsst-ccs-subsystem-teststand-gui
