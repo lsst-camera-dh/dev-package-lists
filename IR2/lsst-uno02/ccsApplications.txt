@@ -2,7 +2,7 @@
 org-lsst-ccs-subsystem-power-main = 1.2.1
 org-lsst-ccs-subsystem-power-gui = 1.2.1
 org-lsst-ccs-ir2-ts8-software-gui = 1.0.1
-org-lsst-ccs-subsystem-teststand-main = 1.2.0-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-main = 1.2.0
 org-lsst-ccs-subsystem-console = 4.0.10
 ccs-test-configurations = ETCCB-303
 
