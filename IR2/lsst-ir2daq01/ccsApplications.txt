@@ -1,7 +1,7 @@
 [ccs]
-org-lsst-ccs-ir2-ts8-software-main = 1.0.2-SNAPSHOT
-org-lsst-ccs-ir2-ts8-software-gui = 1.0.2-SNAPSHOT
-org-lsst-ccs-subsystem-console = 4.0.10
+org-lsst-ccs-ir2-ts8-software-main = 1.0.2
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.3-SNAPSHOT
+org-lsst-ccs-subsystem-console = 5.0.2
 ccs-test-configurations = ETCCB-303
 
 
