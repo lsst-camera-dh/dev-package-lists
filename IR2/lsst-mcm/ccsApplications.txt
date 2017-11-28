@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-localdb-main = 3.0.5-SNAPSHOT
-org-lsst-ccs-subsystem-console = 4.0.11
+org-lsst-ccs-localdb-main = 3.0.9-SNAPSHOT
+org-lsst-ccs-subsystem-console = 5.0.4-SNAPSHOT
 org-lsst-ccs-subsystem-doorman-main = 1.0.4
 org-lsst-ccs-subsystem-doorman-gui = 1.0.4
 org-lsst-ccs-subsystem-airwatch-main = 1.1.4
@@ -11,13 +11,14 @@ executable.TrendingIngestModule = org-lsst-ccs-localdb-main
 executable.LocalRestServices = org-lsst-ccs-localdb-main
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
 executable.ShellTracer = org-lsst-ccs-subsystem-console
-executable.Tunnel = org-lsst-ccs-subsystem-console
+executable.RunTunnel = org-lsst-ccs-subsystem-console
 executable.CCS-Console = org-lsst-ccs-subsystem-doorman-gui
 executable.JythonConsole = org-lsst-ccs-subsystem-console
+executable.Py4JServer = org-lsst-ccs-subsystem-console
 executable.Doorman = org-lsst-ccs-subsystem-doorman-main
 executable.RunIr2Airwatch = org-lsst-ccs-subsystem-airwatch-main
 executable.RunMcmIR2 = org-lsst-ccs-subsystem-mcm-main
-executable.runraftsim = org-lsst-ccs-subsystem-mcm-raftsim
+
 
 
 
