@@ -1,11 +1,12 @@
 [ccs]
-org-lsst-ccs-subsystem-console = 4.0.10
+org-lsst-ccs-subsystem-console = 4.0.11
 org-lsst-ccs-subsystem-power-main = 1.2.2-dev-SNAPSHOT
-org-lsst-ccs-subsystem-power-gui = 1.2.1
+org-lsst-ccs-subsystem-power-gui = 1.2.2-dev-SNAPSHOT
 ccs-test-configurations = ETCCB-303
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.2-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
-executable.CCS-Console = org-lsst-ccs-subsystem-power-gui
+executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
 executable.REBPower = org-lsst-ccs-subsystem-power-main
 executable.REBPSControlGui = org-lsst-ccs-subsystem-power-gui
 symlink.etc = ccs-test-configurations-ETCCB-303/IR2/lsst-uno01
