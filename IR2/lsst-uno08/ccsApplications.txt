@@ -1,11 +1,14 @@
 [ccs]
-org-lsst-ccs-subsystem-teststand-main = 1.2.0-SNAPSHOT
-org-lsst-ccs-subsystem-teststand-gui = 1.2.0-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-main = 1.3.1-dev-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-gui = 1.3.1-dev-SNAPSHOT
+
+org-lsst-ccs-subsystem-motorplatform-main = 1.1.0
+org-lsst-ccs-subsystem-motorplatform-gui = 1.1.0
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-teststand-main
 executable.CCS-Console = org-lsst-ccs-subsystem-teststand-gui
 executable.ts = org-lsst-ccs-subsystem-teststand-main
 executable.ts8-bench = org-lsst-ccs-subsystem-teststand-main
 
-
-
+executable.RunTS8Platform = org-lsst-ccs-subsystem-motorplatform-main
+executable.TS8-MotorConsole = org-lsst-ccs-subsystem-motorplatform-gui

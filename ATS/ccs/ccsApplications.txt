@@ -1,0 +1,12 @@
+[ccs]
+org-lsst-ccs-subsystem-rafts-main = 1.10.0-SNAPSHOT
+org-lsst-ccs-subsystem-rafts-gui = 1.10.0-SNAPSHOT
+org-lsst-ccs-localdb-main = 3.0.8
+org-lsst-ccs-subsystem-console = 5.0.4-SNAPSHOT
+
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-rafts-gui
+executable.CCS-Console = org-lsst-ccs-subsystem-rafts-gui
+executable.WrebRun = org-lsst-ccs-subsystem-rafts-main
+executable.RunTunnel = org-lsst-ccs-subsystem-console
+executable.LocalRestServices = org-lsst-ccs-localdb-main
+executable.TrendingIngestModule = org-lsst-ccs-localdb-main

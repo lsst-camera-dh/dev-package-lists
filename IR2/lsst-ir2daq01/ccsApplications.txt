@@ -1,9 +1,8 @@
 [ccs]
-org-lsst-ccs-ir2-ts8-software-main = 1.0.0
-org-lsst-ccs-ir2-ts8-software-gui = 1.0.0
-org-lsst-ccs-subsystem-console = 4.0.10
-org-lsst-ccs-subsystem-teststand-main = 1.1.22-toolkit4.0.6
-ccs-test-configurations = ETCCB-269
+org-lsst-ccs-ir2-ts8-software-main = 1.0.3-SNAPSHOT
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.3-SNAPSHOT
+org-lsst-ccs-subsystem-console = 5.0.2
+ccs-test-configurations = ETCCB-303
 
 
 executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
@@ -11,6 +10,6 @@ executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
 executable.Reb4Run = org-lsst-ccs-ir2-ts8-software-main
 executable.Raft4Run = org-lsst-ccs-ir2-ts8-software-main
 executable.Raft5Run = org-lsst-ccs-ir2-ts8-software-main
-executable.RunTS8Subsystem = org-lsst-ccs-ir2-ts8-software-main
-executable.tsSim = org-lsst-ccs-subsystem-teststand-main
-symlink.etc = ccs-test-configurations-ETCCB-269/IR2/lsst-ir2daq01
+executable.run-aliveness-raft = org-lsst-ccs-ir2-ts8-software-main
+executable.run-ts8-raft = org-lsst-ccs-ir2-ts8-software-main
+symlink.etc = ccs-test-configurations-ETCCB-303/IR2/lsst-ir2daq01
