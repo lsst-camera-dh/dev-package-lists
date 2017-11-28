@@ -1,7 +1,10 @@
 [ccs]
-org-lsst-ccs-subsystem-console = 4.0.9
+org-lsst-ccs-subsystem-console = 4.0.12
+org-lsst-ccs-subsystem-motorplatform-main = 1.1.0
 
-executable.JythonConsole = org-lsst-ccs-subsystem-console
+executable.JythonConsole = org-lsst-ccs-subsystem-motorplatform-main
+executable.Py4JServer = org-lsst-ccs-subsystem-console
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-motorplatform-main
 
 
 
