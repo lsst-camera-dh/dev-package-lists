@@ -1,0 +1,7 @@
+[ccs]
+org-lsst-ccs-subsystem-console = 5.0.2-SNAPSHOT
+org-lsst-ccs-ir2-ts8-software-gui = 1.0.2-SNAPSHOT
+
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.Tunnel = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-ir2-ts8-software-gui
