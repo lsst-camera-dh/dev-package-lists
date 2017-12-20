@@ -1,7 +1,6 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
-ccs-test-configurations = ETCCB-303
 
 
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
@@ -11,4 +10,3 @@ executable.Raft4Run = org-lsst-ccs-ir2-software-main
 executable.Raft5Run = org-lsst-ccs-ir2-software-main
 executable.run-aliveness-raft = org-lsst-ccs-ir2-software-main
 executable.run-ts8-raft = org-lsst-ccs-ir2-software-main
-symlink.etc = ccs-test-configurations-ETCCB-303/IR2/lsst-ir2daq01
