@@ -10,3 +10,4 @@ executable.Raft4Run = org-lsst-ccs-ir2-software-main
 executable.Raft5Run = org-lsst-ccs-ir2-software-main
 executable.run-aliveness-raft = org-lsst-ccs-ir2-software-main
 executable.run-ts8-raft = org-lsst-ccs-ir2-software-main
+executable.run-ts5-raft = org-lsst-ccs-ir2-software-main
