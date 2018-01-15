@@ -1,0 +1,11 @@
+[ccs]
+org-lsst-ccs-subsystem-console = 4.0.9
+org-lsst-ccs-subsystem-metrology-main = 1.6-SNAPSHOT
+org-lsst-ccs-subsystem-metrology-gui = 1.6-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-main = 1.1.22-toolkit4.0.6-SNAPSHOT
+org-lsst-ccs-subsystem-teststand-gui = 1.1.22-toolkit4.0.6-SNAPSHOT
+
+executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.CCS-Console = org-lsst-ccs-subsystem-metrology-gui
+executable.run_slac_metrology = org-lsst-ccs-subsystem-metrology-main
+
