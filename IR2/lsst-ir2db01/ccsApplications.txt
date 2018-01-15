@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
 
-executable.TrendingIngestModule = org-lsst-ccs-ir2-software-gui
-executable.ShellCommandConsole = org-lsst-ccs-ir2-software-gui
+executable.TrendingIngestModule = org-lsst-ccs-ir2-software-main
+executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
