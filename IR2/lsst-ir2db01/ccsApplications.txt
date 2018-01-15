@@ -1,6 +1,5 @@
 [ccs]
-org-lsst-ccs-localdb-main = 3.0.11-SNAPSHOT
-org-lsst-ccs-subsystem-console = 5.0.5
+org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
 
-executable.TrendingIngestModule = org-lsst-ccs-localdb-main
-executable.ShellCommandConsole = org-lsst-ccs-subsystem-console
+executable.TrendingIngestModule = org-lsst-ccs-ir2-software-gui
+executable.ShellCommandConsole = org-lsst-ccs-ir2-software-gui
