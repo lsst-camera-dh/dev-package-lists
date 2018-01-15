@@ -1,0 +1,6 @@
+[ccs]
+org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
+
+executable.CCS-Console = org-lsst-ccs-ir2-software-gui
+executable.AuxTest = org-lsst-ccs-ir2-software-main
