@@ -1,18 +1,14 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
-ccs-test-configurations = master
+org-lsst-ccs-subsystem-demo-main = 5.0.6-SNAPSHOT
+org-lsst-ccs-subsystem-demo-gui = 5.0.6-SNAPSHOT
 
-symlink.etc = ccs-test-configurations-master/IR2/lsst-mcm
-
-executable.LocalRestServices = org-lsst-ccs-ir2-software-main
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
-executable.ShellTracer = org-lsst-ccs-ir2-software-main
 executable.CCS-Console = org-lsst-ccs-ir2-software-gui
-executable.Py4JServer = org-lsst-ccs-ir2-software-main
-executable.RunMcmIR2 = org-lsst-ccs-ir2-software-main
-executable.RunIr2Airwatch = org-lsst-ccs-ir2-software-main
-executable.Doorman = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystem = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem = org-lsst-ccs-subsystem-demo-main
 
 
 
