@@ -6,9 +6,18 @@ org-lsst-ccs-subsystem-demo-gui = 5.0.6-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
 executable.CCS-Console = org-lsst-ccs-ir2-software-gui
-executable.RunDemoSubsystem = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystemWithMonitoring = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoConfigurableSubsystem = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystem1 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystem2 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystem3 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystem4 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring1 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring2 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring3 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystemWithMonitoring4 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem1 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem2 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem3 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoConfigurableSubsystem4 = org-lsst-ccs-subsystem-demo-main
 
 
 
