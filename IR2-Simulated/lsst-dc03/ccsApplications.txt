@@ -1,6 +1,7 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
+org-lsst-ccs-subsystem-console = 5.1.0-SNAPSHOT
 
 executable.TrendingIngestModule = org-lsst-ccs-ir2-software-main
 executable.LocalRestServices = org-lsst-ccs-ir2-software-main
@@ -11,6 +12,7 @@ executable.JythonInterpreterConsole = org-lsst-ccs-ir2-software-main
 executable.RunMcmIR2 = org-lsst-ccs-ir2-software-main
 executable.RunIr2Airwatch = org-lsst-ccs-ir2-software-main
 executable.Doorman = org-lsst-ccs-ir2-software-main
+executable.ClusterMonitorService = org-lsst-ccs-subsystem-console
 
 
 
