@@ -1,23 +1,21 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
-org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
-org-lsst-ccs-subsystem-demo-main = 5.0.6-SNAPSHOT
-org-lsst-ccs-subsystem-demo-gui = 5.0.6-SNAPSHOT
+org-lsst-ccs-ir2-software-main = 2.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.0-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
 executable.CCS-Console = org-lsst-ccs-ir2-software-gui
-executable.RunDemoSubsystem1 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystem2 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystem3 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystem4 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystemWithMonitoring1 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystemWithMonitoring2 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystemWithMonitoring3 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoSubsystemWithMonitoring4 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoConfigurableSubsystem1 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoConfigurableSubsystem2 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoConfigurableSubsystem3 = org-lsst-ccs-subsystem-demo-main
-executable.RunDemoConfigurableSubsystem4 = org-lsst-ccs-subsystem-demo-main
+executable.RunDemoSubsystem1 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystem2 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystem3 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystem4 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystemWithMonitoring1 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystemWithMonitoring2 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystemWithMonitoring3 = org-lsst-ccs-ir2-software-main
+executable.RunDemoSubsystemWithMonitoring4 = org-lsst-ccs-ir2-software-main
+executable.RunDemoConfigurableSubsystem1 = org-lsst-ccs-ir2-software-main
+executable.RunDemoConfigurableSubsystem2 = org-lsst-ccs-ir2-software-main
+executable.RunDemoConfigurableSubsystem3 = org-lsst-ccs-ir2-software-main
+executable.RunDemoConfigurableSubsystem4 = org-lsst-ccs-ir2-software-main
 
 
 
