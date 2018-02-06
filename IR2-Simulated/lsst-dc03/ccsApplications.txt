@@ -12,6 +12,7 @@ executable.RunMcmIR2 = org-lsst-ccs-ir2-software-main
 executable.RunIr2Airwatch = org-lsst-ccs-ir2-software-main
 executable.Doorman = org-lsst-ccs-ir2-software-main
 executable.ClusterMonitorService = org-lsst-ccs-ir2-software-main
+executable.RunTunnel = org-lsst-ccs-ir2-software-main
 
 
 
