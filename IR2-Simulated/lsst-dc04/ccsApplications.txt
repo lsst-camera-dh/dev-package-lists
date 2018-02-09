@@ -16,7 +16,9 @@ executable.RunDemoConfigurableSubsystem1 = org-lsst-ccs-ir2-software-main
 executable.RunDemoConfigurableSubsystem2 = org-lsst-ccs-ir2-software-main
 executable.RunDemoConfigurableSubsystem3 = org-lsst-ccs-ir2-software-main
 executable.RunDemoConfigurableSubsystem4 = org-lsst-ccs-ir2-software-main
-
+executable.run-aliveness-raft = org-lsst-ccs-ir2-software-main
+executable.run-ts8-raft = org-lsst-ccs-ir2-software-main
+executable.run-ts5-raft = org-lsst-ccs-ir2-software-main
 
 
 
