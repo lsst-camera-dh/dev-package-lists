@@ -21,6 +21,7 @@ executable.run-ts8-raft = org-lsst-ccs-ir2-software-main
 executable.run-ts5-raft = org-lsst-ccs-ir2-software-main
 executable.run-aliveness-rebps = org-lsst-ccs-ir2-software-main
 executable.run-ts7-rebps = org-lsst-ccs-ir2-software-main
-
-
+executable.run_slac_metrology = org-lsst-ccs-ir2-software-main
+executable.run-ts7-slac = org-lsst-ccs-ir2-software-main
+executable.ts8-bench = org-lsst-ccs-ir2-software-main
 
