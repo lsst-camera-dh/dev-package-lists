@@ -1,9 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 1.0.0-SNAPSHOT
-org-lsst-ccs-ir2-software-gui = 1.0.0-SNAPSHOT
-
-#org-lsst-ccs-subsystem-motorplatform-main = 1.1.3
-#org-lsst-ccs-subsystem-motorplatform-gui = 1.1.3
+org-lsst-ccs-ir2-software-main = 1.0.0
+org-lsst-ccs-ir2-software-gui = 1.0.0
 
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
 executable.CCS-Console = org-lsst-ccs-ir2-software-gui
