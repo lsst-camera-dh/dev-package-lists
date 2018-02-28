@@ -1,0 +1,10 @@
+[ccs]
+org-lsst-ccs-ir2-software-main = 1.0.0
+org-lsst-ccs-ir2-software-gui = 1.0.0
+
+executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
+executable.CCS-Console = org-lsst-ccs-ir2-software-gui
+executable.REBPower = org-lsst-ccs-ir2-software-main
+executable.REBPSControlGui = org-lsst-ccs-ir2-software-gui
+executable.run-ts7-slac = org-lsst-ccs-ir2-software-main
+
