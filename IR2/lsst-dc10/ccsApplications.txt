@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-gui = 1.0.0
+org-lsst-ccs-ir2-software-gui = 1.0.1
 
 executable.JythonConsole = org-lsst-ccs-ir2-software-gui
 executable.Py4JServer = org-lsst-ccs-ir2-software-gui
