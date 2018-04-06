@@ -3,3 +3,6 @@ org-lsst-ccs-ir2-software-gui = 2.0.0-SNAPSHOT
 
 executable.ShellCommandConsole = org-lsst-ccs-ir2-software-gui
 executable.CCS-Console = org-lsst-ccs-ir2-software-gui
+
+executable.ccs-shell = org-lsst-ccs-ir2-software-gui
+executable.ccs-console = org-lsst-ccs-ir2-software-gui

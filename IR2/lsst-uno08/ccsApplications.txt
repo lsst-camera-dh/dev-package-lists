@@ -2,8 +2,8 @@
 org-lsst-ccs-ir2-software-main = 2.0.0-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 2.0.0-SNAPSHOT
 
-executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
-executable.CCS-Console = org-lsst-ccs-ir2-software-gui
+executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ts = org-lsst-ccs-ir2-software-gui
 executable.run-ts8-bench = org-lsst-ccs-ir2-software-main
 executable.RunCcobJNI = org-lsst-ccs-ir2-software-main

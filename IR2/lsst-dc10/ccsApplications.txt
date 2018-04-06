@@ -1,9 +1,9 @@
 [ccs]
 org-lsst-ccs-ir2-software-gui = 2.0.0-SNAPSHOT
 
-executable.JythonConsole = org-lsst-ccs-ir2-software-gui
-executable.Py4JServer = org-lsst-ccs-ir2-software-gui
-executable.ShellCommandConsole = org-lsst-ccs-ir2-software-gui
+executable.jython-server = org-lsst-ccs-ir2-software-gui
+executable.py4j-server = org-lsst-ccs-ir2-software-gui
+executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 
 
 
