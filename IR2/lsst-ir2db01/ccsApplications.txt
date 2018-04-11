@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 2.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-main = 2.0.1
 
 executable.localdb = org-lsst-ccs-ir2-software-main
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
