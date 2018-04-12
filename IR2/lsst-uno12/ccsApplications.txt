@@ -3,7 +3,7 @@ org-lsst-ccs-ir2-software-main = 2.0.1
 org-lsst-ccs-ir2-software-gui = 2.0.1
 ccs-test-configurations = master
 
-symlink.etc = ccs-test-configurations-master/IR2/lsst-uno01
+symlink.etc = ccs-test-configurations-master/IR2/lsst-uno12
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
