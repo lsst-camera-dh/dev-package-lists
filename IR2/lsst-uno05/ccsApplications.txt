@@ -1,8 +1,8 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 2.0.2
-org-lsst-ccs-ir2-software-gui = 2.0.2
+org-lsst-ccs-ir2-software-main = 2.0.3-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.3-SNAPSHOT
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.run_slac_metrology = org-lsst-ccs-ir2-software-main
+executable.slac-metrology = org-lsst-ccs-ir2-software-main
 

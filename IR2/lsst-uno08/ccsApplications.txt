@@ -1,12 +1,11 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 2.0.2
-org-lsst-ccs-ir2-software-gui = 2.0.2
+org-lsst-ccs-ir2-software-main = 2.0.3-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.3-SNAPSHOT
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ts = org-lsst-ccs-ir2-software-gui
-executable.run-ts8-bench = org-lsst-ccs-ir2-software-main
-executable.RunCcobJNI = org-lsst-ccs-ir2-software-main
-executable.CcobSubsystem = org-lsst-ccs-ir2-software-main
-executable.RunTS8Platform = org-lsst-ccs-ir2-software-main
-executable.TS8-MotorConsole = org-lsst-ccs-ir2-software-gui
+executable.ts8-bench = org-lsst-ccs-ir2-software-main
+executable.ccob = org-lsst-ccs-ir2-software-main
+executable.ts8-platform = org-lsst-ccs-ir2-software-main
+executable.ts8-motor-console = org-lsst-ccs-ir2-software-gui
