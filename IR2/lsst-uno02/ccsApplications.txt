@@ -5,6 +5,6 @@ ccs-test-configurations = master
 symlink.etc = ccs-test-configurations-master/IR2/lsst-uno02
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
-executable.reb-power = org-lsst-ccs-ir2-software-main
-executable.ts7-slac = org-lsst-ccs-ir2-software-main
+executable.ts7-rebps = org-lsst-ccs-ir2-software-main
+executable.ts7-1 = org-lsst-ccs-ir2-software-main
 
