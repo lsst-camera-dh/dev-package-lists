@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-gui = 2.0.3-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.3
 
 executable.jython-server = org-lsst-ccs-ir2-software-gui
 executable.py4j-server = org-lsst-ccs-ir2-software-gui
