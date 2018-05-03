@@ -1,0 +1,10 @@
+# Integration gantry, primary HCU.
+[ccs]
+org-lsst-ccs-ir2-software-main = 2.0.4
+org-lsst-ccs-ir2-software-gui = 2.0.4
+
+org-lsst-ccs-subsystem-motorplatform-main = 1.1.7-SNAPSHOT
+
+executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
+executable.gantry = org-lsst-ccs-subsystem-motorplatform-main
