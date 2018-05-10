@@ -1,7 +1,7 @@
 [ccs]
-org-lsst-ccs-subsystem-rafts-main = 1.10.0-SNAPSHOT
-org-lsst-ccs-subsystem-rafts-gui = 1.10.0-SNAPSHOT
+org-lsst-ccs-subsystem-rafts-main = 1.10.7
+org-lsst-ccs-subsystem-rafts-gui = 1.10.7
 
-executable.ShellCommandConsole = org-lsst-ccs-subsystem-rafts-gui 
-executable.CCS-Console = org-lsst-ccs-subsystem-rafts-gui
+executable.ccs-shell = org-lsst-ccs-subsystem-rafts-gui 
+executable.ccs-console = org-lsst-ccs-subsystem-rafts-gui
 executable.WrebRun = org-lsst-ccs-subsystem-rafts-main
