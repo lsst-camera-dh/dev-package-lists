@@ -1,0 +1,21 @@
+[ccs]
+org-lsst-ccs-subsystem-vacuum-main = 1.0.0-SNAPSHOT
+org-lsst-ccs-drivers-auxelex = 1.1.0-SNAPSHOT
+org-lsst-ccs-drivers-pluto = 1.1.3-SNAPSHOT
+org-lsst-ccs-drivers-twistorr = 1.0.1-SNAPSHOT
+
+executable.pump-plate = org-lsst-ccs-subsystem-vacuum-main
+executable.TalkAscii = org-lsst-ccs-drivers-pluto
+executable.TalkFtdi = org-lsst-ccs-drivers-pluto
+executable.TestAscii = org-lsst-ccs-drivers-pluto
+executable.TestBfr = org-lsst-ccs-drivers-auxelex
+executable.TestIpc = org-lsst-ccs-drivers-auxelex
+executable.TestModbus = org-lsst-ccs-drivers-pluto
+executable.TestPduHV = org-lsst-ccs-drivers-auxelex
+executable.TestPduLV = org-lsst-ccs-drivers-auxelex
+executable.TestPluto = org-lsst-ccs-drivers-pluto
+executable.TestRebPs = org-lsst-ccs-drivers-auxelex
+executable.TestSrp = org-lsst-ccs-drivers-auxelex
+
+
+
