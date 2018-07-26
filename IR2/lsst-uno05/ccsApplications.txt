@@ -1,7 +1,7 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 2.0.5-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 2.0.5-SNAPSHOT
-org-lsst-ccs-subsystem-metrology-main = 1.6.1
+org-lsst-ccs-subsystem-metrology-main = 1.6.2-SNAPSHOT
 
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
