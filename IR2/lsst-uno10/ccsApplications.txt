@@ -1,7 +1,7 @@
 # Integration gantry, backup HCU.
 [ccs]
-org-lsst-ccs-ir2-software-main = 2.0.4
-org-lsst-ccs-ir2-software-gui = 2.0.4
+org-lsst-ccs-ir2-software-main = 2.0.5-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.5-SNAPSHOT
 
 org-lsst-ccs-subsystem-motorplatform-main = 1.1.7-SNAPSHOT
 
