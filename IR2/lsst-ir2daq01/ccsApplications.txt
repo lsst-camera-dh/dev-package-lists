@@ -8,3 +8,5 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.aliveness-raft = org-lsst-ccs-ir2-software-main
 executable.ts8-raft = org-lsst-ccs-ir2-software-main
 executable.ts5-raft = org-lsst-ccs-ir2-software-main
+executable.comcam-raft = org-lsst-ccs-ir2-software-main
+executable.cr-raft = org-lsst-ccs-ir2-software-main
