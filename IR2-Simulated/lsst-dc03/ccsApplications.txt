@@ -1,18 +1,18 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 2.0.2
-org-lsst-ccs-ir2-software-gui = 2.0.2
+org-lsst-ccs-ir2-software-main = 2.0.5-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.5-SNAPSHOT
 
-executable.TrendingIngestModule = org-lsst-ccs-ir2-software-main
-executable.LocalRestServices = org-lsst-ccs-ir2-software-main
-executable.ShellCommandConsole = org-lsst-ccs-ir2-software-main
-executable.CCS-Console = org-lsst-ccs-ir2-software-gui
-executable.Py4JServer = org-lsst-ccs-ir2-software-main
-executable.JythonConsole = org-lsst-ccs-ir2-software-main
-executable.RunMcmIR2 = org-lsst-ccs-ir2-software-main
-executable.RunIr2Airwatch = org-lsst-ccs-ir2-software-main
-executable.Doorman = org-lsst-ccs-ir2-software-main
-executable.ClusterMonitorService = org-lsst-ccs-ir2-software-main
-executable.RunTunnel = org-lsst-ccs-ir2-software-main
+executable.localdb = org-lsst-ccs-ir2-software-main
+executable.rest-server = org-lsst-ccs-ir2-software-main
+executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
+executable.py4j-server = org-lsst-ccs-ir2-software-main
+executable.jython-server = org-lsst-ccs-ir2-software-main
+executable.mcm-ir2 = org-lsst-ccs-ir2-software-main
+executable.ir2-airwatch = org-lsst-ccs-ir2-software-main
+executable.doorman = org-lsst-ccs-ir2-software-main
+executable.cluster-monitor = org-lsst-ccs-ir2-software-main
+
 
 
 
