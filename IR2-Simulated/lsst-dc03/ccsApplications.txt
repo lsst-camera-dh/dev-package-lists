@@ -4,7 +4,7 @@ org-lsst-ccs-ir2-software-gui = 2.0.5-sim-SNAPSHOT
 org-lsst-ccs-localdb-main = 4.0.8-1-SNAPSHOT
 
 executable.localdb = org-lsst-ccs-localdb-main
-executable.rest-server = org-lsst-ccs-ir2-software-main
+executable.rest-server = org-lsst-ccs-localdb-main
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.py4j-server = org-lsst-ccs-ir2-software-main
