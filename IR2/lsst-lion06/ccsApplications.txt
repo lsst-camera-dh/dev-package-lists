@@ -16,6 +16,7 @@ executable.TestPduLV = org-lsst-ccs-ir2-software-main
 executable.TestPluto = org-lsst-ccs-ir2-software-main
 executable.TestRebPs = org-lsst-ccs-ir2-software-main
 executable.TestSrp = org-lsst-ccs-ir2-software-main
+executable.pap-pdu = org-lsst-ccs-ir2-software-main
 
 
 
