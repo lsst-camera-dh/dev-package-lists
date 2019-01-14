@@ -7,6 +7,7 @@ symlink.etc = ccs-test-configurations-master/IR2/lsst-uno01
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.aliveness-rebps = org-lsst-ccs-ir2-software-main
 executable.ts2r-rebps = org-lsst-ccs-ir2-software-main
 executable.cr-rebps = org-lsst-ccs-ir2-software-main

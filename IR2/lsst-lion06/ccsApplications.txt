@@ -1,9 +1,13 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 2.0.5-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 2.0.5-SNAPSHOT
 ccs-test-configurations = master
 
 symlink.etc = ccs-test-configurations-master/IR2/lsst-lion06
 
+executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-script = org-lsst-ccs-ir2-software-main
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.pump-plate = org-lsst-ccs-ir2-software-main
 executable.TalkAscii = org-lsst-ccs-ir2-software-main
 executable.TalkFtdi = org-lsst-ccs-ir2-software-main

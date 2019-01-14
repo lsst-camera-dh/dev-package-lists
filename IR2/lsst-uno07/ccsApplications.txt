@@ -3,6 +3,7 @@ org-lsst-ccs-ir2-software-main = 2.0.5-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 2.0.5-SNAPSHOT
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.bot-platform = org-lsst-ccs-ir2-software-main
 
