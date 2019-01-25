@@ -11,4 +11,4 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 
 executable.fp-rebps = org-lsst-ccs-ir2-software-main
 executable.rebps = org-lsst-ccs-ir2-software-main
-executable.quadbox = org-lsst-ccs-ir2-software-main
+
