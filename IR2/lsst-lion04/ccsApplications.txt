@@ -6,5 +6,4 @@ executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 
-executable.rebps = org-lsst-ccs-ir2-software-main
 executable.quadbox = org-lsst-ccs-ir2-software-main
