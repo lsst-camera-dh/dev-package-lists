@@ -6,6 +6,4 @@ executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 
-executable.aux-test = org-lsst-ccs-ir2-software-main
-#This one below is deprecated and should be removed soon
-executable.AuxTest = org-lsst-ccs-ir2-software-main
+executable.auxtest = org-lsst-ccs-ir2-software-main
