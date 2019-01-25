@@ -9,17 +9,6 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.pump-plate = org-lsst-ccs-ir2-software-main
-executable.TalkAscii = org-lsst-ccs-ir2-software-main
-executable.TalkFtdi = org-lsst-ccs-ir2-software-main
-executable.TestAscii = org-lsst-ccs-ir2-software-main
-executable.TestBfr = org-lsst-ccs-ir2-software-main
-executable.TestIpc = org-lsst-ccs-ir2-software-main
-executable.TestModbus = org-lsst-ccs-ir2-software-main
-executable.TestPduHV = org-lsst-ccs-ir2-software-main
-executable.TestPduLV = org-lsst-ccs-ir2-software-main
-executable.TestPluto = org-lsst-ccs-ir2-software-main
-executable.TestRebPs = org-lsst-ccs-ir2-software-main
-executable.TestSrp = org-lsst-ccs-ir2-software-main
 executable.pap-pdu = org-lsst-ccs-ir2-software-main
 
 
