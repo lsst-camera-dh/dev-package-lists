@@ -9,4 +9,4 @@ executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.bot-bench = org-lsst-ccs-ir2-software-main
-
+executable.ccob = org-lsst-ccs-ir2-software-main
