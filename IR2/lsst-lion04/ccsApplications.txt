@@ -7,3 +7,4 @@ executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 
 executable.quadbox = org-lsst-ccs-ir2-software-main
+executable.mpm = org-lsst-ccs-ir2-software-main
