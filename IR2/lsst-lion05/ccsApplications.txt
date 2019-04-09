@@ -7,4 +7,5 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.thermal = org-lsst-ccs-ir2-software-main
+executable.hex = org-lsst-ccs-ir2-software-main
 executable.vacuum = org-lsst-ccs-ir2-software-main
