@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 3.0.0-SNAPSHOT
-org-lsst-ccs-ir2-software-gui = 3.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-main = 3.0.2-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 3.0.2-SNAPSHOT
 
 executable.localdb = org-lsst-ccs-ir2-software-main
 executable.rest-server = org-lsst-ccs-ir2-software-main
