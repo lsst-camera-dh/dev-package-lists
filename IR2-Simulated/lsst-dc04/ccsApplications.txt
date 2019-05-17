@@ -24,4 +24,8 @@ executable.ts7-rebps = org-lsst-ccs-ir2-software-main
 executable.metrology = org-lsst-ccs-ir2-software-main
 executable.ts7-1 = org-lsst-ccs-ir2-software-main
 executable.ts8-bench = org-lsst-ccs-ir2-software-main
+executable.focal-plane1 = org-lsst-ccs-ir2-software-main
+executable.focal-plane2 = org-lsst-ccs-ir2-software-main
+executable.focal-plane3 = org-lsst-ccs-ir2-software-main
+executable.focal-plane4 = org-lsst-ccs-ir2-software-main
 
