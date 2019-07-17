@@ -1,6 +1,9 @@
 [ccs]
 org-lsst-ccs-ir2-software-gui = 3.0.6
 
+
 executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
+executable.localdb = org-lsst-ccs-ir2-software-gui
+executable.rest-server = org-lsst-ccs-ir2-software-gui
