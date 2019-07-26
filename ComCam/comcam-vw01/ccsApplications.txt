@@ -1,0 +1,9 @@
+[ccs]
+org-lsst-ccs-comcam-software-main = 1.0.0-SNAPSHOT
+org-lsst-ccs-comcam-software-gui = 1.0.0-SNAPSHOT
+
+executable.ccs-shell = org-lsst-ccs-comcam-software-main
+executable.ccs-script = org-lsst-ccs-comcam-software-main
+executable.ccs-console = org-lsst-ccs-comcam-software-gui
+
+
