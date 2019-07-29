@@ -6,4 +6,5 @@ executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 
-
+executable.comcam-vacuum = org-lsst-ccs-comcam-software-main
+executable.comcam-rebps = org-lsst-ccs-comcam-software-main
