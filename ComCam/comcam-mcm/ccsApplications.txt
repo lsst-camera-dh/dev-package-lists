@@ -5,7 +5,7 @@ org-lsst-ccs-comcam-software-gui = 1.0.0-SNAPSHOT
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
-executable.mcm-ir2 = org-lsst-ccs-comcam-software-main
+executable.comcam-mcm = org-lsst-ccs-comcam-software-main
 executable.cluster-monitor = org-lsst-ccs-comcam-software-main
 executable.rest-server = org-lsst-ccs-comcam-software-main
 
