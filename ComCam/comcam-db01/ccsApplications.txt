@@ -6,5 +6,6 @@ executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 executable.localdb = org-lsst-ccs-comcam-software-main
+executable.rest-server = org-lsst-ccs-comcam-software-main
 
 
