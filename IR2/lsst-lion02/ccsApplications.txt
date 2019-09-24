@@ -12,4 +12,5 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-gui
 executable.fp-rebps = org-lsst-ccs-ir2-software-main
 executable.rebps = org-lsst-ccs-ir2-software-main
 executable.rebps-cr = org-lsst-ccs-ir2-software-main
+executable.rebpower = org-lsst-ccs-ir2-software-main
 
