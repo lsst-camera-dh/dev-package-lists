@@ -15,3 +15,4 @@ executable.focal-plane-sim = org-lsst-ccs-ir2-software-main
 
 
 
+executable.store = org-lsst-ccs-ir2-software-main
