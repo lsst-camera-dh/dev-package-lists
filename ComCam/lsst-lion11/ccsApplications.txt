@@ -1,12 +1,12 @@
 [ccs]
-#org-lsst-ccs-comcam-software-main = 1.0.0-SNAPSHOT
-org-lsst-ccs-comcam-software-main = LSSTCCSPOWER-63
-#org-lsst-ccs-comcam-software-gui = 1.0.0-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = LSSTCCSPOWER-63
+#org-lsst-ccs-subsystem-power-main = 1.0.0-SNAPSHOT
+org-lsst-ccs-subsystem-power-main = LSSTCCSPOWER-63
+#org-lsst-ccs-subsystem-power-gui = 1.0.0-SNAPSHOT
+org-lsst-ccs-subsystem-power-gui = LSSTCCSPOWER-63
 
-executable.ccs-shell = org-lsst-ccs-comcam-software-main
-executable.ccs-script = org-lsst-ccs-comcam-software-main
-executable.ccs-console = org-lsst-ccs-comcam-software-gui
+executable.ccs-shell = org-lsst-ccs-subsystem-power-main
+executable.ccs-script = org-lsst-ccs-subsystem-power-main
+executable.ccs-console = org-lsst-ccs-subsystem-power-gui
 
-executable.ComCamQuadBox = org-lsst-ccs-comcam-software-main
-executable.comcam-rebps = org-lsst-ccs-comcam-software-main
+executable.ComCamQuadBox = org-lsst-ccs-subsystem-power-main
+executable.comcam-rebps = org-lsst-ccs-subsystem-power-main
