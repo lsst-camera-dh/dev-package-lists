@@ -10,4 +10,3 @@ executable.ccs-console = org-lsst-ccs-subsystem-power-gui
 
 executable.ComCamQuadBox = org-lsst-ccs-subsystem-power-main
 executable.comcam-rebpower = org-lsst-ccs-subsystem-power-main
-executable.comcam-rebps = org-lsst-ccs-subsystem-power-main
