@@ -7,4 +7,5 @@ executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 
 executable.comcam-fcs = org-lsst-ccs-comcam-software-main
+executable.bonn-shutter = org-lsst-ccs-comcam-software-main
 
