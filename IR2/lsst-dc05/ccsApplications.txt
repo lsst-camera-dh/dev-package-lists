@@ -1,0 +1,18 @@
+[ccs]
+org-lsst-ccs-ir2-software-main = 4.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 4.0.0-SNAPSHOT
+ccs-test-configurations = master
+
+symlink.etc = ccs-test-configurations-master/IR2/lsst-dc05
+
+
+executable.ccs-script = org-lsst-ccs-ir2-software-main
+executable.ccs-shell = org-lsst-ccs-ir2-software-main
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
+executable.focal-plane = org-lsst-ccs-ir2-software-main
+executable.image-handling = org-lsst-ccs-ir2-software-main
+executable.focal-plane-sim = org-lsst-ccs-ir2-software-main
+
+
+
+executable.store = org-lsst-ccs-ir2-software-main
