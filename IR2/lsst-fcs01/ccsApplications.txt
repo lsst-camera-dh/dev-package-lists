@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 4.0.1-SNAPSHOT	
-org-lsst-ccs-ir2-software-gui = 4.0.1-SNAPSHOT	
+org-lsst-ccs-subsystem-fcs-main = 5.3.6	
+org-lsst-ccs-subsystem-fcs-gui = 5.3.6	
 ccs-test-configurations = master	
 
 symlink.etc = ccs-test-configurations-master/IR2/lsst-fcs01	
