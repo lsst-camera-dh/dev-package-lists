@@ -8,5 +8,12 @@ symlink.etc = ccs-test-configurations-master/IR2/lsst-fcs01
 
 executable.ccs-script = org-lsst-ccs-ir2-software-main	
 executable.ccs-shell = org-lsst-ccs-ir2-software-main	
-executable.ccs-console = org-lsst-ccs-ir2-software-gui	
+executable.ccs-console = org-lsst-ccs-ir2-software-gui
+
+executable.run-fcs = org-lsst-ccs-ir2-software-main
+executable.run-carousel = org-lsst-ccs-ir2-software-main
+executable.run-autochanger_AC1 = org-lsst-ccs-ir2-software-main
+executable.run-loader = org-lsst-ccs-ir2-software-main
+executable.run-loader_LO1 = org-lsst-ccs-ir2-software-main
+
 
