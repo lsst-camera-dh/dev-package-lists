@@ -6,13 +6,13 @@ ccs-test-configurations = master
 symlink.etc = ccs-test-configurations-master/IR2/lsst-fcs01	
 
 
-executable.ccs-script = org-lsst-ccs-ir2-software-main	
-executable.ccs-shell = org-lsst-ccs-ir2-software-main	
-executable.ccs-console = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-subsystem-fcs-main
+executable.ccs-shell = org-lsst-ccs-subsystem-fcs-main	
+executable.ccs-console = org-lsst-ccs-subsystem-fcs-gui
 
-executable.run-fcs = org-lsst-ccs-ir2-software-main
-executable.run-carousel = org-lsst-ccs-ir2-software-main
-executable.run-autochanger_AC1 = org-lsst-ccs-ir2-software-main
-executable.run-loader_LO1 = org-lsst-ccs-ir2-software-main
+executable.run-fcs = org-lsst-ccs-subsystem-fcs-main
+executable.run-carousel = org-lsst-ccs-subsystem-fcs-main
+executable.run-autochanger_AC1 = org-lsst-ccs-subsystem-fcs-main
+executable.run-loader_LO1 = org-lsst-ccs-subsystem-fcs-main
 
 
