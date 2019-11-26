@@ -13,7 +13,6 @@ executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.run-fcs = org-lsst-ccs-ir2-software-main
 executable.run-carousel = org-lsst-ccs-ir2-software-main
 executable.run-autochanger_AC1 = org-lsst-ccs-ir2-software-main
-executable.run-loader = org-lsst-ccs-ir2-software-main
 executable.run-loader_LO1 = org-lsst-ccs-ir2-software-main
 
 
