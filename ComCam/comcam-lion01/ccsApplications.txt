@@ -8,4 +8,5 @@ executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 
 executable.comcam-quadbox = org-lsst-ccs-comcam-software-main
+executable.comcam-mpm = org-lsst-ccs-comcam-software-main
 
