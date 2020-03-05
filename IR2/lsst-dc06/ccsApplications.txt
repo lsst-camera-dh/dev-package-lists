@@ -13,3 +13,4 @@ executable.comcam-fp = org-lsst-ccs-ir2-software-main
 executable.comcam-fp-sim = org-lsst-ccs-ir2-software-main	
 executable.image-handling = org-lsst-ccs-ir2-software-main	
 executable.store = org-lsst-ccs-ir2-software-main
+executable.daq-monitor = org-lsst-ccs-ir2-software-main
