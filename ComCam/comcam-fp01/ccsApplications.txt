@@ -9,5 +9,8 @@ executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 executable.comcam-fp = org-lsst-ccs-comcam-software-main
+executable.comcam-ih = org-lsst-ccs-comcam-software-main
+executable.comcam-daq-monitor = org-lsst-ccs-comcam-software-main
+executable.store = org-lsst-ccs-comcam-software-main
 
 
