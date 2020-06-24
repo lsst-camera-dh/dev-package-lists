@@ -9,5 +9,6 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ts7-rebps = org-lsst-ccs-ir2-software-main
+executable.ts7-rebpower = org-lsst-ccs-ir2-software-main
 executable.ts7-1 = org-lsst-ccs-ir2-software-main
 
