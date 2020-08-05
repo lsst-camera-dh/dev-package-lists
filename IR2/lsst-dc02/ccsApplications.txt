@@ -12,3 +12,7 @@ executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.focal-plane = org-lsst-ccs-ir2-software-main	
 executable.focal-plane-sim = org-lsst-ccs-ir2-software-main	
 executable.store = org-lsst-ccs-ir2-software-main
+executable.ts8-ih = org-lsst-ccs-ir2-software-main	
+executable.ts8-daq-monitor = org-lsst-ccs-ir2-software-main	
+executable.aliveness-ih = org-lsst-ccs-ir2-software-main	
+executable.aliveness-daq-monitor = org-lsst-ccs-ir2-software-main	
