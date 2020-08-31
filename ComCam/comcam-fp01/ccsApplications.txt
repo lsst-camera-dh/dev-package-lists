@@ -1,10 +1,16 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 1.0.0-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = 1.0.0-SNAPSHOT
+org-lsst-ccs-comcam-software-main = 1.0.3
+org-lsst-ccs-comcam-software-gui = 1.0.3
+
+ccs-prod-configurations = comcam-software-1.0.3
+symlink.etc = ccs-prod-configurations-comcam-software-1.0.3/ComCam/comcam-fp01
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 executable.comcam-fp = org-lsst-ccs-comcam-software-main
+executable.comcam-ih = org-lsst-ccs-comcam-software-main
+executable.comcam-daq-monitor = org-lsst-ccs-comcam-software-main
+executable.store = org-lsst-ccs-comcam-software-main
 
 
