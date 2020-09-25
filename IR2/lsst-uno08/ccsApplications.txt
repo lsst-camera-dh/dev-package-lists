@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 4.1.1
-org-lsst-ccs-ir2-software-gui = 4.1.1
+org-lsst-ccs-ir2-software-main = 4.1.2-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 4.1.2-SNAPSHOT
 
 ccs-test-configurations = master
 
