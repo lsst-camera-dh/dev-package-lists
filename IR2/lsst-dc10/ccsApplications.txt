@@ -10,8 +10,7 @@ executable.py4j-server = org-lsst-ccs-ir2-software-gui
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.image-handling = org-lsst-ccs-ir2-software-main
-
+executable.image-handling-dc10 = org-lsst-ccs-ir2-software-main
 
 
 executable.store = org-lsst-ccs-ir2-software-main
