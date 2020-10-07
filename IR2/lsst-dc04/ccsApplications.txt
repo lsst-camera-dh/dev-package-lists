@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 4.1.2
-org-lsst-ccs-ir2-software-gui = 4.1.2
+org-lsst-ccs-ir2-software-main = 4.1.3
+org-lsst-ccs-ir2-software-gui = 4.1.3
 ccs-test-configurations = master
 
 symlink.etc = ccs-test-configurations-master/IR2/lsst-dc04
