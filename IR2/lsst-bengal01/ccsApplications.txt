@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-gui = 5.0.0-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 5.0.0
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
