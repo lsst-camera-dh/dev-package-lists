@@ -1,8 +1,13 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 5.0.1-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 5.0.1-SNAPSHOT
+ccs-test-configurations = master
+
+symlink.etc = ccs-test-configurations-master/IR2/lsst-lion05
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.refrig = org-lsst-ccs-ir2-software-main
+executable.thermal = org-lsst-ccs-ir2-software-main
+executable.hex = org-lsst-ccs-ir2-software-main
+executable.vacuum = org-lsst-ccs-ir2-software-main
