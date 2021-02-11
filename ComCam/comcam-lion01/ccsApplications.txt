@@ -2,7 +2,7 @@
 org-lsst-ccs-pathfinder-software-main = 1.0.1
 org-lsst-ccs-pathfinder-software-gui = 1.0.1
 
-ccs-prod-configurations = comcam-software-1.0.1
+ccs-prod-configurations = pathfinder-software-1.0.1
 symlink.etc = ccs-prod-configurations-pathfinder-software-1.0.1/ComCam/comcam-lion01
 
 executable.ccs-shell = org-lsst-ccs-pathfinder-software-main
