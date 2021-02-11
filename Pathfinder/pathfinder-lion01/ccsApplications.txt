@@ -1,4 +1,4 @@
-[ccs]
+B[ccs]
 org-lsst-ccs-pathfinder-software-main = 1.0.0-SNAPSHOT
 org-lsst-ccs-pathfinder-software-gui = 1.0.0-SNAPSHOT
 
@@ -9,5 +9,5 @@ executable.ccs-shell = org-lsst-ccs-pathfinder-software-main
 executable.ccs-script = org-lsst-ccs-pathfinder-software-main
 executable.ccs-console = org-lsst-ccs-pathfinder-software-gui
 
-executable.pathfinder-vacuum = org-lsst-ccs-pathfinder-software-main
+executable.pathfinder = org-lsst-ccs-pathfinder-software-main
 
