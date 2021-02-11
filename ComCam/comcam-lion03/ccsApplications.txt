@@ -9,5 +9,5 @@ executable.ccs-shell = org-lsst-ccs-pathfinder-software-main
 executable.ccs-script = org-lsst-ccs-pathfinder-software-main
 executable.ccs-console = org-lsst-ccs-pathfinder-software-gui
 
-executable.pathfinder-vacuum = org-lsst-ccs-pathfinder-software-main
+executable.pathfinder = org-lsst-ccs-pathfinder-software-main
 
