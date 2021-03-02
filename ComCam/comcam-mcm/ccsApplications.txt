@@ -9,6 +9,7 @@ executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 executable.comcam-mcm = org-lsst-ccs-comcam-software-main
+executable.comcam-mmm = org-lsst-ccs-comcam-software-main
 executable.cluster-monitor = org-lsst-ccs-comcam-software-main
 executable.mcm-comcam = org-lsst-ccs-comcam-software-main
 executable.ocs-bridge-comcam = org-lsst-ccs-comcam-software-main
