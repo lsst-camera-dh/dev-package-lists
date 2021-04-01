@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 5.0.1
-org-lsst-ccs-ir2-software-gui = 5.0.1
+org-lsst-ccs-ir2-software-main = 6.0.0
+org-lsst-ccs-ir2-software-gui = 6.0.0
 ccs-test-configurations = LSSTCCSTS-236
 
 symlink.etc = ccs-test-configurations-LSSTCCSTS-236/IR2/lsst-uno11
