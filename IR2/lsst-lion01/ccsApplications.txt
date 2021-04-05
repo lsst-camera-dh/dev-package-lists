@@ -1,9 +1,15 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.0.0
-org-lsst-ccs-ir2-software-gui = 6.0.0
+# IR2 software release should contain org-lsst-ccs-subsystem-shutter release 4.12
+org-lsst-ccs-ir2-software-main = 6.0.0	
+org-lsst-ccs-ir2-software-gui = 6.0.0	
+ccs-test-configurations = master	
 
-executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.ccs-script = org-lsst-ccs-ir2-software-gui
-executable.ccs-shell = org-lsst-ccs-ir2-software-main
+symlink.etc = ccs-test-configurations-master/IR2/lsst-lion01
 
-executable.auxtest = org-lsst-ccs-ir2-software-main
+
+executable.ccs-script = org-lsst-ccs-ir2-software-main	
+executable.ccs-shell = org-lsst-ccs-ir2-software-main	
+executable.ccs-console = org-lsst-ccs-ir2-software-gui	
+executable.shutter1 = org-lsst-ccs-ir2-software-main	
+executable.shutter2 = org-lsst-ccs-ir2-software-main	
+
