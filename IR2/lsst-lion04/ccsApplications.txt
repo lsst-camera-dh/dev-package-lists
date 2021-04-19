@@ -11,3 +11,5 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 
 executable.quadbox = org-lsst-ccs-ir2-software-main
 executable.mpm = org-lsst-ccs-ir2-software-main
+executable.utiltrunk = org-lsst-ccs-ir2-software-main
+
