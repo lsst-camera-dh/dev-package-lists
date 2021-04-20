@@ -1,10 +1,10 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.0.0
-org-lsst-ccs-ir2-software-gui = 6.0.0
 
-ccs-test-configurations = LSSTCCSTS-236
+org-lsst-ccs-ir2-software-main = 6.0.2-SNAPSHOT-dev
+org-lsst-ccs-ir2-software-gui = 6.0.2-SNAPSHOT-dev
+ccs-test-configurations = ir2-software-5.1.0
 
-symlink.etc = ccs-test-configurations-LSSTCCSTS-236/IR2/lsst-uno08
+symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-lion08
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
