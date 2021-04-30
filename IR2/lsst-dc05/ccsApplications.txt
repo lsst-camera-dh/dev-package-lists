@@ -9,7 +9,7 @@ symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-dc05
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.image-handling-dc05 = org-lsst-ccs-ir2-software-main
+executable.image-handling = org-lsst-ccs-ir2-software-main
 executable.daq-monitor = org-lsst-ccs-ir2-software-main	
 
 
