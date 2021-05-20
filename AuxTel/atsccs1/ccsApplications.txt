@@ -13,4 +13,4 @@ executable.mcm-atcamera = org-lsst-ccs-ats-software-main
 executable.ocs-bridge-atcamera = org-lsst-ccs-ats-software-main
 executable.ocs-gui-atcamera = org-lsst-ccs-ats-software-main
 executable.rest-server = org-lsst-ccs-ats-software-main
-executable.mmm-ats = org-lsst-ccs-ats-software-main
+executable.ats-mmm = org-lsst-ccs-ats-software-main
