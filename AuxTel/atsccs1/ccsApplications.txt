@@ -1,17 +1,17 @@
 [ccs]
-org-lsst-ccs-ats-software-main = 2.0.0
-org-lsst-ccs-ats-software-gui = 2.0.0
+org-lsst-ccs-ats-software-main = 2.1.0
+org-lsst-ccs-ats-software-gui = 2.1.0
 
-ccs-prod-configurations = ats-software-2.0.0
-symlink.etc = ccs-prod-configurations-ats-software-2.0.0/AuxTel/atsccs1
+ccs-prod-configurations = ats-software-2.1.0
+symlink.etc = ccs-prod-configurations-ats-software-2.1.0/AuxTel/atsccs1
 
 executable.ccs-shell = org-lsst-ccs-ats-software-main
 executable.ccs-script = org-lsst-ccs-ats-software-main
 executable.ccs-console = org-lsst-ccs-ats-software-gui
 executable.localdb = org-lsst-ccs-ats-software-main
-executable.mcm-atcamera = org-lsst-ccs-ats-software-main
-executable.ocs-bridge-atcamera = org-lsst-ccs-ats-software-main
-executable.ocs-gui-atcamera = org-lsst-ccs-ats-software-main
+executable.ats-mcm = org-lsst-ccs-ats-software-main
+executable.ats-ocs-bridge = org-lsst-ccs-ats-software-main
+executable.ats-ocs-gui = org-lsst-ccs-ats-software-main
 executable.rest-server = org-lsst-ccs-ats-software-main
 executable.ats-mmm = org-lsst-ccs-ats-software-main
 executable.cluster-monitor = org-lsst-ccs-ats-software-main
