@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.2.0
-org-lsst-ccs-comcam-software-gui = 2.2.0
+org-lsst-ccs-comcam-software-main = 2.2.1
+org-lsst-ccs-comcam-software-gui = 2.2.1
 
-ccs-prod-configurations = comcam-software-2.2.0
-symlink.etc = ccs-prod-configurations-comcam-software-2.2.0/ComCam/comcam-lion01
+ccs-prod-configurations = comcam-software-2.2.1
+symlink.etc = ccs-prod-configurations-comcam-software-2.2.1/ComCam/comcam-lion01
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
@@ -11,4 +11,6 @@ executable.ccs-console = org-lsst-ccs-comcam-software-gui
 
 executable.comcam-quadbox = org-lsst-ccs-comcam-software-main
 executable.comcam-mpm = org-lsst-ccs-comcam-software-main
+executable.pathfinder-refrig = org-lsst-ccs-comcam-software-main
+executable.pathfinder-quadbox = org-lsst-ccs-comcam-software-main
 
