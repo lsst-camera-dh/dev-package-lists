@@ -8,7 +8,5 @@ symlink.etc = ccs-prod-configurations-comcam-software-2.2.1/ComCam/comcam-dc01
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
-executable.localdb = org-lsst-ccs-comcam-software-main
-executable.rest-server = org-lsst-ccs-comcam-software-main
 
 

@@ -8,6 +8,3 @@ symlink.etc = ccs-prod-configurations-comcam-software-2.2.1/ComCam/comcam-lion16
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
-
-executable.comcam-pathfinder = org-lsst-ccs-comcam-software-main
-
