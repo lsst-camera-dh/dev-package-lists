@@ -3,7 +3,7 @@ org-lsst-ccs-ir2-software-main = 6.1.4-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 6.1.4-SNAPSHOT
 ccs-test-configurations = master	
 
-symlink.etc = ccs-test-configurations-master/IR2/lsst-lion02
+symlink.etc = ccs-test-configurations-master/IR2/lsst-lion18
 
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.ccs-script = org-lsst-ccs-ir2-software-gui
