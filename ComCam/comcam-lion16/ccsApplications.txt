@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.3.2
-org-lsst-ccs-comcam-software-gui = 2.3.2
+org-lsst-ccs-comcam-software-main = 2.3.1
+org-lsst-ccs-comcam-software-gui = 2.3.1
 
-ccs-prod-configurations = comcam-software-2.3.2
-symlink.etc = ccs-prod-configurations-comcam-software-2.3.2/ComCam/comcam-lion16
+ccs-prod-configurations = comcam-software-2.3.1
+symlink.etc = ccs-prod-configurations-comcam-software-2.3.1/ComCam/comcam-lion16
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
