@@ -11,6 +11,6 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui	
 executable.carousel = org-lsst-ccs-ir2-software-main
 executable.fcs = org-lsst-ccs-ir2-software-main	
-executable.autochanger_AC1 = org-lsst-ccs-ir2-software-main	
-executable.loader_LO1 = org-lsst-ccs-ir2-software-main
+executable.autochanger1 = org-lsst-ccs-ir2-software-main	
+executable.loader1 = org-lsst-ccs-ir2-software-main
 
