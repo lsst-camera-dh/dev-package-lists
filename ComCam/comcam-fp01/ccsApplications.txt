@@ -1,16 +1,19 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.3.3
-org-lsst-ccs-comcam-software-gui = 2.3.3
+org-lsst-ccs-comcam-software-main = 2.3.4
+org-lsst-ccs-comcam-software-gui = 2.3.4
 
-ccs-prod-configurations = comcam-software-2.3.3
-symlink.etc = ccs-prod-configurations-comcam-software-2.3.3/ComCam/comcam-fp01
+ccs-prod-configurations = comcam-software-2.3.4
+symlink.etc = ccs-prod-configurations-comcam-software-2.3.4/ComCam/comcam-fp01
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
 executable.ccs-console = org-lsst-ccs-comcam-software-gui
 executable.comcam-fp = org-lsst-ccs-comcam-software-main
 executable.comcam-ih = org-lsst-ccs-comcam-software-main
+executable.comcam-fp-emu = org-lsst-ccs-comcam-software-main
+executable.comcam-ih-emu = org-lsst-ccs-comcam-software-main
 executable.comcam-daq-monitor = org-lsst-ccs-comcam-software-main
+executable.comcam-daq-monitor-emu = org-lsst-ccs-comcam-software-main
 executable.store = org-lsst-ccs-comcam-software-main
 executable.h2db = org-lsst-ccs-comcam-software-main
 

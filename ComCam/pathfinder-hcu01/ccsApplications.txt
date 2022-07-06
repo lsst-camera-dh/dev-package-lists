@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.3.3
-org-lsst-ccs-comcam-software-gui = 2.3.3
+org-lsst-ccs-comcam-software-main = 2.3.4
+org-lsst-ccs-comcam-software-gui = 2.3.4
 
-ccs-prod-configurations = comcam-software-2.3.3
-symlink.etc = ccs-prod-configurations-comcam-software-2.3.3/ComCam/pathfinder-hcu01
+ccs-prod-configurations = comcam-software-2.3.4
+symlink.etc = ccs-prod-configurations-comcam-software-2.3.4/ComCam/pathfinder-hcu01
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
