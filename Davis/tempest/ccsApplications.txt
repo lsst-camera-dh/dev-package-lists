@@ -5,3 +5,5 @@ org-lsst-ccs-ir2-software-gui = 6.0.13-SNAPSHOT
 executable.ccs-script = org-lsst-ccs-ir2-software-main	
 executable.ccs-shell = org-lsst-ccs-ir2-software-main	
 executable.ccs-console = org-lsst-ccs-ir2-software-gui	
+executable.focal-plane = org-lsst-ccs-ir2-software-main	
+executable.image-handling = org-lsst-ccs-ir2-software-main	
