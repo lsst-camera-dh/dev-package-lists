@@ -10,7 +10,7 @@ ccs-test-configurations = master
 symlink.etc = ccs-test-configurations-master/IR2/lsst-lion04
 
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.ccs-script = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 
 executable.quadbox = org-lsst-ccs-ir2-software-main

@@ -8,7 +8,7 @@ symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-dc10
 executable.jython-server = org-lsst-ccs-ir2-software-gui
 executable.py4j-server = org-lsst-ccs-ir2-software-gui
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
-executable.ccs-script = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.image-handling = org-lsst-ccs-ir2-software-main
 

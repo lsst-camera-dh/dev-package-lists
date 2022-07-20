@@ -7,7 +7,7 @@ symlink.etc = ccs-test-configurations-master/IR2/lsst-ir2daq01
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.ccs-script = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.aliveness-raft = org-lsst-ccs-ir2-software-main
 executable.ts8-raft = org-lsst-ccs-ir2-software-main
 executable.ts5-raft = org-lsst-ccs-ir2-software-main
