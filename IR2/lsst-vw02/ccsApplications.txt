@@ -4,7 +4,7 @@ org-lsst-ccs-ir2-software-gui = 5.0.1
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.ccs-script = org-lsst-ccs-ir2-software-gui
+executable.ccs-script = org-lsst-ccs-ir2-software-main
 
 executable.fits-test = org-lsst-ccs-ir2-software-main
 executable.ig-gui = org-lsst-ccs-ir2-software-main
