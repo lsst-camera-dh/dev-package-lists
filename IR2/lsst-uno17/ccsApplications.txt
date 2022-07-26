@@ -6,3 +6,4 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
 executable.chiller = org-lsst-ccs-ir2-software-main
+executable.prototype-cold-plate = org-lsst-ccs-ir2-software-main
