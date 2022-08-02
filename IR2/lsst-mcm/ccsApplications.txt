@@ -14,3 +14,4 @@ executable.ir2-airwatch = org-lsst-ccs-ir2-software-main
 executable.doorman = org-lsst-ccs-ir2-software-main
 executable.cluster-monitor = org-lsst-ccs-ir2-software-main
 executable.eatonpdus = org-lsst-ccs-ir2-software-main
+executable.lockmanager = org-lsst-ccs-ir2-software-main
