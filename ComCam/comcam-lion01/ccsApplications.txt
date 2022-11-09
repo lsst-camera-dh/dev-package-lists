@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.3.7-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = 2.3.7-SNAPSHOT
+org-lsst-ccs-comcam-software-main = 2.3.7
+org-lsst-ccs-comcam-software-gui = 2.3.7
 
 ccs-prod-configurations = comcam-software-2.3.7
 symlink.etc = ccs-prod-configurations-comcam-software-2.3.7/ComCam/comcam-lion01
