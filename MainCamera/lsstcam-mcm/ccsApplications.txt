@@ -1,17 +1,13 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.1.8-SNAPSHOT
-org-lsst-ccs-ir2-software-gui = 6.1.8-SNAPSHOT
-ccs-test-configurations = ir2-software-5.1.0
+org-lsst-ccs-camera-software-main = 1.0.0
+org-lsst-ccs-camera-software-gui = 1.0.0
+ccs-prod-configurations = lsstcam-software-1.0.0
 
-symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-mcm
+symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.0/MainCamera/lsstcam-mcm
 
-executable.rest-server = org-lsst-ccs-ir2-software-main
-executable.ccs-shell = org-lsst-ccs-ir2-software-main
-executable.ccs-script = org-lsst-ccs-ir2-software-main
-executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.mmm = org-lsst-ccs-ir2-software-main
-executable.ir2-airwatch = org-lsst-ccs-ir2-software-main
-executable.doorman = org-lsst-ccs-ir2-software-main
-executable.cluster-monitor = org-lsst-ccs-ir2-software-main
-executable.eatonpdus = org-lsst-ccs-ir2-software-main
-executable.lockmanager = org-lsst-ccs-ir2-software-main
+executable.ccs-shell = org-lsst-ccs-camera-software-main
+executable.ccs-script = org-lsst-ccs-camera-software-main
+executable.ccs-console = org-lsst-ccs-camera-software-gui
+executable.mmm = org-lsst-ccs-camera-software-main
+executable.cluster-monitor = org-lsst-ccs-camera-software-main
+executable.lockmanager = org-lsst-ccs-camera-software-main
