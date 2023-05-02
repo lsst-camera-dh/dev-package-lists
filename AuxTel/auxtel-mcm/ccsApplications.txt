@@ -15,3 +15,4 @@ executable.ats-ocs-gui = org-lsst-ccs-ats-software-main
 executable.rest-server = org-lsst-ccs-ats-software-main
 executable.mmm = org-lsst-ccs-ats-software-main
 executable.cluster-monitor = org-lsst-ccs-ats-software-main
+executable.lockmanager = org-lsst-ccs-ats-software-main
