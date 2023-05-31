@@ -1,9 +1,9 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 6.1.13-dev-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 6.1.13-dev-SNAPSHOT
-ccs-test-configurations = ir2-software-5.1.0	
+ccs-test-configurations = ir2-software-5.1.0-dev	
 
-symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-dc02	
+symlink.etc = ccs-test-configurations-ir2-software-5.1.0-dev/IR2/lsst-dc02	
 
 executable.ccs-script = org-lsst-ccs-ir2-software-main	
 executable.ccs-shell = org-lsst-ccs-ir2-software-main	
@@ -16,6 +16,7 @@ executable.seqinfo = org-lsst-ccs-ir2-software-main
 executable.ts8-ih = org-lsst-ccs-ir2-software-main	
 executable.ts8-fp = org-lsst-ccs-ir2-software-main	
 executable.ts8-daq-monitor = org-lsst-ccs-ir2-software-main	
+executable.ts8-mcm = org-lsst-ccs-ir2-software-main
 executable.aliveness-ih = org-lsst-ccs-ir2-software-main	
 executable.aliveness-fp = org-lsst-ccs-ir2-software-main	
 executable.aliveness-daq-monitor = org-lsst-ccs-ir2-software-main	
