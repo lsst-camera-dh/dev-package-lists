@@ -1,9 +1,9 @@
 [ccs]
 org-lsst-ccs-ir2-software-main = 6.1.13-SNAPSHOT
 org-lsst-ccs-ir2-software-gui = 6.1.13-SNAPSHOT
-ccs-test-configurations = ir2-software-5.1.0-dev	
+ccs-test-configurations = ir2-software-5.1.0	
 
-symlink.etc = ccs-test-configurations-ir2-software-5.1.0-dev/IR2/lsst-dc06	
+symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-dc06	
 
 
 executable.ccs-script = org-lsst-ccs-ir2-software-main	
