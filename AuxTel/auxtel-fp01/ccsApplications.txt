@@ -12,3 +12,4 @@ executable.ats-fp = org-lsst-ccs-ats-software-main
 executable.ats-ih = org-lsst-ccs-ats-software-main
 executable.ats-daq-monitor = org-lsst-ccs-ats-software-main
 executable.store = org-lsst-ccs-ats-software-main
+executable.h2db = org-lsst-ccs-ats-software-main
