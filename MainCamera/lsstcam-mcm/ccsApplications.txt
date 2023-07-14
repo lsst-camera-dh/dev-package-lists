@@ -11,3 +11,7 @@ executable.ccs-console = org-lsst-ccs-camera-software-gui
 executable.mmm = org-lsst-ccs-camera-software-main
 executable.cluster-monitor = org-lsst-ccs-camera-software-main
 executable.lockmanager = org-lsst-ccs-camera-software-main
+executable.mcm = org-lsst-ccs-camera-software-main
+executable.ocs-bridge = org-lsst-ccs-camera-software-main
+executable.ocs-gui = org-lsst-ccs-camera-software-main
+
