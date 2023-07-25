@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.3.12
-org-lsst-ccs-comcam-software-gui = 2.3.12
+org-lsst-ccs-comcam-software-main = 2.4.0-SNAPSHOT
+org-lsst-ccs-comcam-software-gui = 2.4.0-SNAPSHOT
 
-ccs-prod-configurations = comcam-software-2.3.12
-symlink.etc = ccs-prod-configurations-comcam-software-2.3.12/ComCam/comcam-dc01
+ccs-prod-configurations = comcam-software-2.4.0
+symlink.etc = ccs-prod-configurations-comcam-software-2.4.0/ComCam/comcam-dc01
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
