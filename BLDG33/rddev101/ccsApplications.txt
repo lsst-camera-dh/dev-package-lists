@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.0.1
-org-lsst-ccs-ir2-software-gui = 6.0.1
+org-lsst-ccs-ir2-software-main = 6.1.15-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 6.1.15-SNAPSHOT
 ccs-test-configurations = master	
 
 symlink.etc = ccs-test-configurations-master/BLDG33/lsst-ccs0
@@ -11,4 +11,4 @@ executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui	
 executable.localdb = org-lsst-ccs-ir2-software-main	
 executable.rest-server = org-lsst-ccs-ir2-software-main	
-
+executable.rebpower = org-lsst-ccs-ir2-software-main	
