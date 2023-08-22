@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ats-software-main = 2.3.2-SNAPSHOT
-org-lsst-ccs-ats-software-gui = 2.3.2-SNAPSHOT
+org-lsst-ccs-ats-software-main = 2.3.2
+org-lsst-ccs-ats-software-gui = 2.3.2
 
 ccs-prod-configurations = ats-software-2.3.2
 symlink.etc = ccs-prod-configurations-ats-software-2.3.2/AuxTel/auxtel-mcm
