@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 2.4.3-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = 2.4.3-SNAPSHOT
+org-lsst-ccs-comcam-software-main = 2.4.3
+org-lsst-ccs-comcam-software-gui = 2.4.3
 
 ccs-prod-configurations = comcam-software-2.4.3
 symlink.etc = ccs-prod-configurations-comcam-software-2.4.3/ComCam/comcam-fp01
