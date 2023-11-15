@@ -8,3 +8,6 @@ symlink.etc = ccs-prod-configurations-ats-software-2.3.5/AuxTel/auxtel-hcu02
 executable.ccs-shell = org-lsst-ccs-ats-software-main
 executable.ccs-script = org-lsst-ccs-ats-software-main
 executable.ccs-console = org-lsst-ccs-ats-software-gui
+executable.ats = org-lsst-ccs-ats-software-main
+executable.ats-power = org-lsst-ccs-ats-software-main
+executable.bonn-shutter = org-lsst-ccs-ats-software-main
