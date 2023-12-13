@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.1.22
-org-lsst-ccs-ir2-software-gui = 6.1.22
+org-lsst-ccs-ir2-software-main = 6.1.23-SNAPSHOT
+org-lsst-ccs-ir2-software-gui = 6.1.23-SNAPSHOT
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
