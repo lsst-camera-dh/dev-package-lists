@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 1.0.7
-org-lsst-ccs-camera-software-gui = 1.0.7
-ccs-prod-configurations = lsstcam-software-1.0.7
+org-lsst-ccs-camera-software-main = 1.0.8-SNAPSHOT
+org-lsst-ccs-camera-software-gui = 1.0.8-SNAPSHOT
+ccs-prod-configurations = lsstcam-software-1.0.8-SNAPSHOT
 
-symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.7/MainCamera/lsstcam-dc05
+symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.8-SNAPSHOT/MainCamera/lsstcam-dc05
 
 
 executable.ccs-script = org-lsst-ccs-camera-software-main
