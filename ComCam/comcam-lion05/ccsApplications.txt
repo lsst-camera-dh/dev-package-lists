@@ -1,0 +1,10 @@
+[ccs]
+org-lsst-ccs-comcam-software-main = 2.4.4
+org-lsst-ccs-comcam-software-gui = 2.4.4
+
+ccs-prod-configurations = comcam-software-2.4.4
+symlink.etc = ccs-prod-configurations-comcam-software-2.4.4/ComCam/comcam-lion05
+
+executable.ccs-shell = org-lsst-ccs-comcam-software-main
+executable.ccs-script = org-lsst-ccs-comcam-software-main
+executable.ccs-console = org-lsst-ccs-comcam-software-gui
