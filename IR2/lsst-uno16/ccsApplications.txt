@@ -7,7 +7,6 @@ symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-uno17
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-script = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
-executable.chiller = org-lsst-ccs-ir2-software-main
+executable.chiller-test = org-lsst-ccs-ir2-software-main
 executable.prototype-cold-plate = org-lsst-ccs-ir2-software-main
-executable.refrig = org-lsst-ccs-ir2-software-main
 
