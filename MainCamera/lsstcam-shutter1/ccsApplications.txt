@@ -1,0 +1,12 @@
+[ccs]
+org-lsst-ccs-camera-software-main = 1.0.10
+org-lsst-ccs-camera-software-gui = 1.0.10
+ccs-prod-configurations = lsstcam-software-1.0.10
+
+symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.10/MainCamera/lsstcam-shutter1
+
+executable.ccs-shell = org-lsst-ccs-camera-software-main
+executable.ccs-script = org-lsst-ccs-camera-software-main
+executable.ccs-console = org-lsst-ccs-camera-software-gui
+executable.shutter1 = org-lsst-ccs-camera-software-main
+
