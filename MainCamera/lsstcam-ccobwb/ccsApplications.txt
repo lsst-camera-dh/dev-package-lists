@@ -1,0 +1,13 @@
+[ccs]
+org-lsst-ccs-camera-software-main = 1.0.9
+org-lsst-ccs-camera-software-gui = 1.0.9
+ccs-prod-configurations = lsstcam-software-1.0.9
+
+symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.9/MainCamera/lsstcam-ccobwb
+
+executable.ccs-shell = org-lsst-ccs-camera-software-main
+executable.ccs-script = org-lsst-ccs-camera-software-main
+executable.ccs-console = org-lsst-ccs-camera-software-gui
+executable.ccob = org-lsst-ccs-camera-software-main
+
+
