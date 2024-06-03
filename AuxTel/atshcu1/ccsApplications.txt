@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-ats-software-main = 2.3.9
-org-lsst-ccs-ats-software-gui = 2.3.9
+org-lsst-ccs-ats-software-main = 2.3.10-SNAPSHOT
+org-lsst-ccs-ats-software-gui = 2.3.10-SNAPSHOT
 
-ccs-prod-configurations = ats-software-2.3.9
-symlink.etc = ccs-prod-configurations-ats-software-2.3.9/AuxTel/atshcu1
+ccs-prod-configurations = ats-software-2.3.10
+symlink.etc = ccs-prod-configurations-ats-software-2.3.10/AuxTel/atshcu1
 
 executable.ccs-shell = org-lsst-ccs-ats-software-main
 executable.ccs-script = org-lsst-ccs-ats-software-main
