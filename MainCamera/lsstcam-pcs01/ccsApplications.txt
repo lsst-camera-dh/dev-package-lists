@@ -9,5 +9,6 @@ executable.ccs-shell = org-lsst-ccs-camera-software-main
 executable.ccs-script = org-lsst-ccs-camera-software-main
 executable.ccs-console = org-lsst-ccs-camera-software-gui
 executable.chiller = org-lsst-ccs-camera-software-main
+executable.chiller-nocamera = org-lsst-ccs-camera-software-main
 executable.refrig = org-lsst-ccs-camera-software-main
 
