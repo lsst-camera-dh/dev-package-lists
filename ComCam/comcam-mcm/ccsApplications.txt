@@ -15,4 +15,5 @@ executable.comcam-mcm-emu = org-lsst-ccs-comcam-software-main
 executable.comcam-ocs-bridge = org-lsst-ccs-comcam-software-main
 executable.comcam-ocs-gui = org-lsst-ccs-comcam-software-main
 executable.lockmanager = org-lsst-ccs-comcam-software-main
+executable.kafka-broker-service = org-lsst-ccs-comcam-software-main
 
