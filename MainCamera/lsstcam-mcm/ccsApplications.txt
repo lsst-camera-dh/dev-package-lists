@@ -14,4 +14,5 @@ executable.lockmanager = org-lsst-ccs-camera-software-main
 executable.mcm = org-lsst-ccs-camera-software-main
 executable.ocs-bridge = org-lsst-ccs-camera-software-main
 executable.ocs-gui = org-lsst-ccs-camera-software-main
+executable.kafka-broker-service = org-lsst-ccs-camera-software-main
 
