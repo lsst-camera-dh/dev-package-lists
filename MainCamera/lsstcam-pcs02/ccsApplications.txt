@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 1.0.13-SNAPSHOT
-org-lsst-ccs-camera-software-gui = 1.0.13-SNAPSHOT
+org-lsst-ccs-camera-software-main = 1.0.13-dev-SNAPSHOT
+org-lsst-ccs-camera-software-gui = 1.0.13-dev-SNAPSHOT
 ccs-prod-configurations = lsstcam-software-1.0.13
 
 symlink.etc = ccs-prod-configurations-lsstcam-software-1.0.13/MainCamera/lsstcam-pcs02
