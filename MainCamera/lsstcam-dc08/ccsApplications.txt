@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 39.0.2-SNAPSHOT
-org-lsst-ccs-camera-software-gui = 39.0.2-SNAPSHOT
+org-lsst-ccs-camera-software-main = 39.1.0-SNAPSHOT
+org-lsst-ccs-camera-software-gui = 39.1.0-SNAPSHOT
 ccs-prod-configurations = lsstcam-software-39.0.2
 
 symlink.etc = ccs-prod-configurations-lsstcam-software-39.0.2/MainCamera/lsstcam-dc08
