@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ir2-software-main = 6.1.24-SNAPSHOT
-org-lsst-ccs-ir2-software-gui = 6.1.24-SNAPSHOT
+org-lsst-ccs-ir2-software-main = 6.1.24
+org-lsst-ccs-ir2-software-gui = 6.1.24
 ccs-test-configurations = master	
 
 symlink.etc = ccs-test-configurations-master/IR2/lsst-lion15
