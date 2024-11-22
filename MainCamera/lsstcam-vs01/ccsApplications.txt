@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 39.2.1-SNAPSHOT
-org-lsst-ccs-camera-software-gui = 39.2.1-SNAPSHOT
+org-lsst-ccs-camera-software-main = 39.2.1
+org-lsst-ccs-camera-software-gui = 39.2.1
 ccs-prod-configurations = lsstcam-software-39.2.1
 
 symlink.etc = ccs-prod-configurations-lsstcam-software-39.2.1/MainCamera/lsstcam-vs01
