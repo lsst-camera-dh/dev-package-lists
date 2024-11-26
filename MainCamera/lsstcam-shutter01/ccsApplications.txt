@@ -8,6 +8,6 @@ symlink.etc = ccs-prod-configurations-lsstcam-software-39.2.1/MainCamera/lsstcam
 executable.ccs-shell = org-lsst-ccs-camera-software-main
 executable.ccs-script = org-lsst-ccs-camera-software-main
 executable.ccs-console = org-lsst-ccs-camera-software-gui
-executable.shutter1 = org-lsst-ccs-camera-software-main
-symlink.shutter = shutter1
+executable.shutter = org-lsst-ccs-camera-software-main
+
 
