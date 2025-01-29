@@ -1,0 +1,10 @@
+[ccs]
+org-lsst-ccs-ats-software-main = 39.2.0
+org-lsst-ccs-ats-software-gui = 39.2.0
+
+ccs-prod-configurations = ats-software-39.2.0
+symlink.etc = ccs-prod-configurations-ats-software-39.2.0/AuxTel/auxtel-mcm01
+
+executable.ccs-shell = org-lsst-ccs-ats-software-main
+executable.ccs-script = org-lsst-ccs-ats-software-main
+executable.ccs-console = org-lsst-ccs-ats-software-gui
