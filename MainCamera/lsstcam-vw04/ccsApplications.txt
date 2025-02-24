@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 39.2.3
-org-lsst-ccs-camera-software-gui = 39.2.3
-ccs-prod-configurations = lsstcam-software-39.2.3
+org-lsst-ccs-camera-software-main = 40.0.0-SNAPSHOT
+org-lsst-ccs-camera-software-gui = 40.0.0-SNAPSHOT
+ccs-prod-configurations = lsstcam-software-40.0.0
 
-symlink.etc = ccs-prod-configurations-lsstcam-software-39.2.3/MainCamera/lsstcam-vw04
+symlink.etc = ccs-prod-configurations-lsstcam-software-40.0.0/MainCamera/lsstcam-vw04
 
 
 executable.ccs-script = org-lsst-ccs-camera-software-main
