@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 40.0.2
-org-lsst-ccs-camera-software-gui = 40.0.2
-ccs-prod-configurations = lsstcam-software-40.0.2
+org-lsst-ccs-camera-software-main = 40.0.3-SNAPSHOT
+org-lsst-ccs-camera-software-gui = 40.0.3-SNAPSHOT
+ccs-prod-configurations = lsstcam-software-40.0.3
 
-symlink.etc = ccs-prod-configurations-lsstcam-software-40.0.2/MainCamera/lsstcam-mcm
+symlink.etc = ccs-prod-configurations-lsstcam-software-40.0.3/MainCamera/lsstcam-mcm
 
 executable.ccs-shell = org-lsst-ccs-camera-software-main
 executable.ccs-script = org-lsst-ccs-camera-software-main
@@ -15,4 +15,5 @@ executable.mcm = org-lsst-ccs-camera-software-main
 executable.ocs-bridge = org-lsst-ccs-camera-software-main
 executable.ocs-gui = org-lsst-ccs-camera-software-main
 executable.kafka-broker-service = org-lsst-ccs-camera-software-main
+executable.platform-pdu = org-lsst-ccs-camera-software-main
 
