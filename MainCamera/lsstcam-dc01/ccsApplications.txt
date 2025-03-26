@@ -15,3 +15,4 @@ executable.focal-plane = org-lsst-ccs-camera-software-main
 executable.image-handling = org-lsst-ccs-camera-software-main	
 executable.focal-plane-sim = org-lsst-ccs-camera-software-main	
 executable.store = org-lsst-ccs-camera-software-main
+executable.guider = org-lsst-ccs-camera-software-main
