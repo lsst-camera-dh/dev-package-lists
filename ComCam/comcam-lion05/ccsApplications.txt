@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 41.0.0-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = 41.0.0-SNAPSHOT
+org-lsst-ccs-comcam-software-main = 41.0.0
+org-lsst-ccs-comcam-software-gui = 41.0.0
 
 ccs-prod-configurations = comcam-software-41.0.0
 symlink.etc = ccs-prod-configurations-comcam-software-41.0.0/ComCam/comcam-lion05
