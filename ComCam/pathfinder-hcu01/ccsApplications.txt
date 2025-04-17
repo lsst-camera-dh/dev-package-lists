@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 41.0.1-SNAPSHOT
-org-lsst-ccs-comcam-software-gui = 41.0.1-SNAPSHOT
+org-lsst-ccs-comcam-software-main = 41.0.1
+org-lsst-ccs-comcam-software-gui = 41.0.1
 
 ccs-prod-configurations = comcam-software-41.0.1
 symlink.etc = ccs-prod-configurations-comcam-software-41.0.1/ComCam/pathfinder-hcu01
