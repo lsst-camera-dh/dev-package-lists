@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-comcam-software-main = 41.0.4
-org-lsst-ccs-comcam-software-gui = 41.0.4
+org-lsst-ccs-comcam-software-main = 41.0.5-SNAPSHOT
+org-lsst-ccs-comcam-software-gui = 41.0.5-SNAPSHOT
 
-ccs-prod-configurations = comcam-software-41.0.4
-symlink.etc = ccs-prod-configurations-comcam-software-41.0.4/ComCam/comcam-mcm
+ccs-prod-configurations = comcam-software-41.0.5
+symlink.etc = ccs-prod-configurations-comcam-software-41.0.5/ComCam/comcam-mcm
 
 executable.ccs-shell = org-lsst-ccs-comcam-software-main
 executable.ccs-script = org-lsst-ccs-comcam-software-main
