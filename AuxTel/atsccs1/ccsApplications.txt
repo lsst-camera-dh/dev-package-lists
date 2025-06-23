@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ats-software-main = 41.0.4-SNAPSHOT
-org-lsst-ccs-ats-software-gui = 41.0.4-SNAPSHOT
+org-lsst-ccs-ats-software-main = 41.0.4
+org-lsst-ccs-ats-software-gui = 41.0.4
 
 ccs-prod-configurations = ats-software-41.0.4
 symlink.etc = ccs-prod-configurations-ats-software-41.0.4/AuxTel/atsccs1
