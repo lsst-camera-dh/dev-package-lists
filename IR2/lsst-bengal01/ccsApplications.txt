@@ -1,5 +1,5 @@
 [ccs]
-org-lsst-ccs-ir2-software-gui = 41.0.6
+org-lsst-ccs-ir2-software-gui = 42.0.1
 
 executable.ccs-shell = org-lsst-ccs-ir2-software-main
 executable.ccs-console = org-lsst-ccs-ir2-software-gui
