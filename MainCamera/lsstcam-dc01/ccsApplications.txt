@@ -1,9 +1,9 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 42.0.3-SNAPSHOT	
-org-lsst-ccs-camera-software-gui = 42.0.3-SNAPSHOT
-ccs-prod-configurations = master	
+org-lsst-ccs-camera-software-main = 42.0.3	
+org-lsst-ccs-camera-software-gui = 42.0.3
+ccs-prod-configurations = main	
 
-symlink.etc = ccs-prod-configurations-master/MainCamera/lsstcam-dc01	
+symlink.etc = ccs-prod-configurations-main/MainCamera/lsstcam-dc01	
 
 
 executable.ccs-script = org-lsst-ccs-camera-software-main	
