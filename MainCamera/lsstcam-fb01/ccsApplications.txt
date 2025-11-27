@@ -12,5 +12,4 @@ executable.carousel = org-lsst-ccs-camera-software-main
 executable.fcs = org-lsst-ccs-camera-software-main
 executable.autochanger1 = org-lsst-ccs-camera-software-main
 executable.autochanger2 = org-lsst-ccs-camera-software-main
-executable.loader1 = org-lsst-ccs-camera-software-main
-executable.loader2 = org-lsst-ccs-camera-software-main
+executable.loader = org-lsst-ccs-camera-software-main
