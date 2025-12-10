@@ -1,7 +1,7 @@
 [ccs]
 # IR2 software release should contain org-lsst-ccs-subsystem-shutter release 4.12
-org-lsst-ccs-ir2-software-main = 42.0.3	
-org-lsst-ccs-ir2-software-gui = 42.0.3	
+org-lsst-ccs-ir2-software-main = 42.0.4	
+org-lsst-ccs-ir2-software-gui = 42.0.4	
 ccs-test-configurations = ir2-software-5.1.0	
 
 symlink.etc = ccs-test-configurations-ir2-software-5.1.0/IR2/lsst-lion17
