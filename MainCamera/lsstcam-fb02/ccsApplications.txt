@@ -8,6 +8,5 @@ symlink.etc = ccs-prod-configurations-main/MainCamera/lsstcam-fb02
 executable.ccs-shell = org-lsst-ccs-camera-software-main
 executable.ccs-script = org-lsst-ccs-camera-software-main
 executable.ccs-console = org-lsst-ccs-camera-software-gui
-executable.fcs = org-lsst-ccs-camera-software-main
 executable.loader = org-lsst-ccs-camera-software-main
 
