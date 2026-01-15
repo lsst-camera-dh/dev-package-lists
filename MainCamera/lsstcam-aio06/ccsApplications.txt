@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-camera-software-main = 42.0.5-SNAPSHOT
-org-lsst-ccs-camera-software-gui = 42.0.5-SNAPSHOT
+org-lsst-ccs-camera-software-main = 42.0.5
+org-lsst-ccs-camera-software-gui = 42.0.5
 ccs-prod-configurations = main
 
 symlink.etc = ccs-prod-configurations-main/MainCamera/lsstcam-aio06
