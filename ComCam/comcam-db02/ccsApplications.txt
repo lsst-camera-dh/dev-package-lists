@@ -1,0 +1,14 @@
+[ccs]
+org-lsst-ccs-comcam-software-main = 43.1.0
+org-lsst-ccs-comcam-software-gui = 43.1.0
+
+ccs-prod-configurations = main
+symlink.etc = ccs-prod-configurations-main/ComCam/comcam-db02
+
+executable.ccs-shell = org-lsst-ccs-comcam-software-main
+executable.ccs-script = org-lsst-ccs-comcam-software-main
+executable.ccs-console = org-lsst-ccs-comcam-software-gui
+executable.localdb = org-lsst-ccs-comcam-software-main
+executable.rest-server = org-lsst-ccs-comcam-software-main
+
+
