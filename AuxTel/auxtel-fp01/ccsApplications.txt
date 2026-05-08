@@ -1,6 +1,6 @@
 [ccs]
-org-lsst-ccs-ats-software-main = 44.0.2-SNAPSHOT
-org-lsst-ccs-ats-software-gui = 44.0.2-SNAPSHOT
+org-lsst-ccs-ats-software-main = 44.0.2
+org-lsst-ccs-ats-software-gui = 44.0.2
 
 ccs-prod-configurations = main
 symlink.etc = ccs-prod-configurations-main/AuxTel/auxtel-fp01
