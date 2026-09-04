@@ -183,3 +183,32 @@ branch** when done.
   all correct, commit messages say "software".
 - Switch-to-newest, skip-push (n) leaves origin behind, dirty-tree refusal on tracked
   changes, and untracked-file exemption all verified.
+
+## Deferred: updating versions on `master` (IR2 et al.) — DECLINED 2026-09-03
+
+Idea raised: extend the tool to also bump versions for the `master`-resident
+environments (IR2 primarily), e.g. `./version_managment.sh ir2`. **Decided not to
+build it** — kept here so it isn't re-derived.
+
+It is **not** a 4th site on the existing flow; it is a different operation, and
+`master`'s layout makes reusing the current machinery unsafe:
+
+- The versioned sites (`lsstcam`/`comcam`/`ats`) never touch `master` — they are
+  branch-per-version. Updating IR2 means **committing directly to `master`**, which
+  reverses the [ADR 0001](../decisions/0001-version-management-script-home.md)
+  launch-and-return contract (master is only ever a checkout pad today). Building
+  this would require **amending ADR 0001** to allow `master` writes for its resident
+  environments.
+- `master` holds **~10 top-level env dirs** (`ATS, AuxTel, BLDG33, Chile, ComCam,
+  Davis, IR2, IR2-Simulated, Pathfinder, SimulatedEnvironment`) spanning multiple
+  site tokens (`ats, comcam, ir2, maincamera, pathfinder`), each at its **own,
+  intentionally different** version. So the whole-tree `*/*/ccsApplications.txt`
+  glob that `version_from_files`/`replace_in_files` rely on is wrong here:
+  `version_from_files` would `die` on "inconsistent versions" (it sees ~10), and a
+  global replace would corrupt unrelated environments.
+- A correct implementation would need its own narrow path **scoped to the `IR2/`
+  subtree** (glob `IR2/*/ccsApplications.txt` or the `ir2-software-*` token): detect
+  current version → prompt new (default patch bump) → commit to `master` → push. No
+  `-SNAPSHOT` strip, no branch creation, no cross-site sweep.
+
+For now, IR2/master version bumps stay a **manual edit-commit-push on `master`**.
