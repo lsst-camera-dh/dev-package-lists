@@ -75,34 +75,83 @@ After every commit the tool shows `git show --stat HEAD` and **prompts `y/N`** b
 pushing. Answer `n` to keep the commit local — it prints the `git push` command to
 run yourself later. New branches are pushed with `--set-upstream`.
 
-## A typical release
+## Example: release a cycle, then open the next snapshot
 
-Starting on `comcam-software-44.0.3` with `44.0.3-SNAPSHOT` in the files:
-
-1. Run the script → choose **Release current branch** → review → push `y`.
-   - Files become `44.0.3`, committed as *"Updated to software distribution 44.0.3"*.
-2. The menu reappears → choose **Create next snapshot branch** → accept default
-   `44.0.4` → push `y`.
-   - New branch `comcam-software-44.0.4` created with `44.0.4-SNAPSHOT`, committed as
-     *"Updated to software distribution 44.0.4-SNAPSHOT"*, pushed with upstream.
-3. Choose **Quit**.
-
-## Working across all sites
-
-The script acts on **one site at a time** — the site of the branch you're on. To
-save switching branches manually, after you perform a **Release** or a
-**(Skip-)Create**, it asks whether to apply the *same* action to the other two
-sites:
+The most common job: Jenkins has released `45.0.0` in `software-versions`, so you
+release the matching `45.0.0-SNAPSHOT` branch here and open `45.0.1-SNAPSHOT` for the
+next round of work. From `master`:
 
 ```
-Also create 45.0.0-SNAPSHOT on the other sites (lsstcam, comcam)? [y/N]
+$ ./version_managment.sh comcam
+Fetching from origin...
+Switching to comcam-software-45.0.0
+
+Branch:  comcam-software-45.0.0
+Site:    comcam
+Files:   45.0.0-SNAPSHOT
+Newest branch for site: comcam-software-45.0.0
+
+Available actions:
+  1) Release current branch (45.0.0-SNAPSHOT -> 45.0.0)
+  2) Skip release — start next snapshot cycle (patch bump from 45.0.0-SNAPSHOT)
+  3) Quit
+Choose an action [1-3]: 1
 ```
 
-Answer `y` and it checks out each other site's **newest** branch (`git pull
---ff-only` first), repeats the action there — **reusing the same version** you
-just chose — and then returns you to the branch you started from. Each push is
-still confirmed per site with the usual `y/N`. Answer `n` to keep working one
-site at a time (then switch branches yourself and re-run).
+Choosing **1** strips `-SNAPSHOT` across the files, commits, and shows the diff before
+asking to push:
+
+```
+Releasing 45.0.0-SNAPSHOT -> 45.0.0
+Push this commit to origin? [y/N] y
+```
+
+The menu then reappears in the *released* state, now offering to open the next
+snapshot. Accept the default patch bump (`45.0.1`):
+
+```
+Available actions:
+  1) Create next snapshot branch (patch bump from 45.0.0)
+  2) Quit
+Choose an action [1-2]: 1
+Next version [default 45.0.1]:
+Creating comcam-software-45.0.1 with 45.0.1-SNAPSHOT
+Push this commit to origin? [y/N] y
+```
+
+That leaves `comcam-software-45.0.0` released and a fresh `comcam-software-45.0.1`
+branch (files at `45.0.1-SNAPSHOT`) created off it. Choose **Quit**, and the script
+returns you to `master`.
+
+## Example: apply the same action to all sites
+
+The script starts on **one site** (the one you named), but a release or a new cycle
+usually has to happen for every site. So after a **Release** or a **(Skip-)Create**,
+it offers to apply the *same* action to the other two sites — reusing the version you
+just chose — so you don't re-run it per site:
+
+Continuing the release above (you released `comcam` first), the sweep prompt appears
+right after the release and offers the same action for the remaining sites:
+
+```
+Also release the other sites (lsstcam, ats)? [y/N] y
+
+=== lsstcam: switching to lsstcam-software-45.0.0 ===
+Releasing 45.0.0-SNAPSHOT -> 45.0.0
+Push this commit to origin? [y/N] y
+
+=== ats: switching to ats-software-45.0.0 ===
+Releasing 45.0.0-SNAPSHOT -> 45.0.0
+Push this commit to origin? [y/N] y
+
+Sweep done — returning to comcam-software-45.0.0
+```
+
+It checks out each other site's **newest** branch (`git pull --ff-only` first),
+repeats the action there, and returns to the branch it started the sweep from (the
+menu loop then continues; **Quit** returns you to `master`). Each push is still
+confirmed per site. Answer `n` to the sweep prompt to keep working one site at a time
+— re-run from `master` with the next site when ready.
 
 A site that can't take the action is **reported and skipped**, not fatal — e.g.
 a *release* where that site's files aren't a `-SNAPSHOT`, or a *create* whose
