@@ -3,7 +3,7 @@ org-lsst-ccs-camera-software-main = 44.0.5
 org-lsst-ccs-camera-software-gui = 44.0.5
 ccs-prod-configurations = main
 
-symlink.etc = ccs-prod-configurations-main/MainCamera/lsstcam-vac
+symlink.etc = ccs-prod-configurations-main/MainCamera/lsstcam-vac1
 
 executable.ccs-shell = org-lsst-ccs-camera-software-main
 executable.ccs-script = org-lsst-ccs-camera-software-main
