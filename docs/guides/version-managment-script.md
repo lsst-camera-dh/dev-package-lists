@@ -37,7 +37,7 @@ dirty-tree check, so it does not trip over the `docs/` directory.
 ## Usage
 
 ```sh
-./version_managment.sh [site]        # site ∈ lsstcam | comcam | ats
+./version_managment.sh [site] [version]   # site ∈ lsstcam | comcam | ats
 ```
 
 Give the site as the first argument, or omit it and the script prompts. On start it:
@@ -48,6 +48,10 @@ Give the site as the first argument, or omit it and the script prompts. On start
    `git pull --ff-only` (aborts rather than silently merging if it has diverged).
 3. Detects the version present in the files and the newest branch for the site,
    then prints a numbered menu of the valid actions.
+
+The optional **second argument pins a start-point** — see
+[Releasing an older line](#releasing-an-older-line-when-a-newer-cycle-branch-exists)
+below. Omit it for the default newest-branch behaviour described here.
 
 After each action it re-evaluates and shows the menu again, so a **release chains
 straight into creating the next snapshot** in a single run. Choose **Quit** to stop.
@@ -160,8 +164,40 @@ temporarily out of lockstep.
 
 > The sites needn't be in lockstep. You can **skip** a release on one site now
 > (moving its cycle forward) and come back to release the older snapshot branch
-> later — checkout that branch and the menu will offer **Release** (plus
-> **Switch to newest** for the newer branch that now exists).
+> later — see [Releasing an older line](#releasing-an-older-line-when-a-newer-cycle-branch-exists)
+> for how to target it directly.
+
+## Releasing an older line when a newer cycle branch exists
+
+By default the tool operates on each site's **newest** branch. But once a new
+cycle is in development the newest branch is the *new* cycle (e.g.
+`lsstcam-software-45.0.0`), while production is still shipping patches on the
+*older* line (e.g. `44.0.6`). To act on that older line, give its version as the
+**second argument** — a *pinned* run:
+
+```sh
+./version_managment.sh lsstcam 44.0.6
+```
+
+The run then begins on `lsstcam-software-44.0.6` rather than the newest branch,
+and two things change versus a default run:
+
+- **Switch-to-newest is suppressed.** A pinned run stays on its line; it will not
+  offer to jump to the newer cycle branch. The status block prints
+  `Start point: pinned to 44.0.6 (switch-to-newest disabled)` so this is visible.
+- **The cross-site sweep targets the pinned line**, not each site's newest. So
+  releasing `44.0.6` on `lsstcam` and accepting the sweep releases
+  `ats-software-44.0.6` and `comcam-software-44.0.6` — *not* their `45.0.0`
+  branches. A site with no branch at the pinned version is reported and skipped.
+
+Everything else is identical: the release still chains into creating the next
+snapshot (here `44.0.7-SNAPSHOT`, branched off the `44.0.6` release commit on each
+site), and that create-sweep is likewise pinned, so the new `44.0.7` branches come
+off `44.0.6` on every site.
+
+The pin is validated: a malformed version or a `<site>-software-<version>` branch
+that doesn't exist aborts before anything changes (the error names the site's
+newest branch as a hint).
 
 ## Notes & gotchas
 

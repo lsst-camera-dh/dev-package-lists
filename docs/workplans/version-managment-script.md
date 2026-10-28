@@ -151,6 +151,40 @@ branch** when done.
 - When creating the next snapshot, the new branch is created off the just-released
   branch (matches `git checkout -b` from the released branch in the manual flow).
 
+## Addendum (2026-10-28): optional start-point argument
+
+The "Agreed design" interface above is **site-only** (`./version_managment.sh
+[site]`), which always starts on — and only ever offers to switch to — the site's
+**newest** branch. That makes it impossible to act on an *older* line once a newer
+cycle branch exists: with `45.0.0` branches present, there was no way to release
+`44.0.6`. (This is the same need the "out-of-lockstep" note anticipated, but the
+original interface had no mechanism for it.)
+
+**Resolved (user, 2026-10-28):** add an optional **second positional argument**, a
+pinned start-point version: `./version_managment.sh <site> <version>`. Omitted →
+unchanged newest-branch behaviour.
+
+- New global `PINNED_VERSION` (mirrors the `CREATED_VERSION` pattern — threaded via
+  a module-level var, so helper signatures are untouched). Empty = newest mode.
+- `main()` parses arg 2: validates the `MAJOR.MINOR.PATCH` form and that
+  `<site>-software-<version>` exists (else `die` with the site's newest as a hint),
+  then starts on that branch instead of newest.
+- **Switch-to-newest is suppressed when pinned** (user decision): a pinned run must
+  stay on its line, never jump to the newer cycle branch. The menu guard gains a
+  `[[ -z "$PINNED_VERSION" ]]` conjunct; a `Start point: pinned to <v>` status line
+  makes the mode visible.
+- **The sweep is pinned-aware** — the correctness-critical part. `sweep_other_sites`
+  otherwise takes each other site to its *newest* branch (`45.0.0`), which would
+  release/advance the wrong line. When pinned it targets `<site>-software-$PINNED_VERSION`
+  on every site (reported-and-skipped if that site lacks the branch). Correct for
+  both actions: the release-sweep releases each site's `44.0.6`; the chained
+  create-sweep bases each new `44.0.7` off `44.0.6`.
+- **Verified** (2026-10-28) by running an edited copy from a temp path against the
+  live repo (tracked script kept clean so the dirty-tree guard passes), land-and-quit:
+  pinned `lsstcam 44.0.6` lands on `44.0.6` with no switch-to-newest; default `ats`
+  still lands on newest `45.0.0`; malformed version and non-existent branch both
+  `die` cleanly and return to `master`. Zero mutation.
+
 ## Implementation sketch (once questions answered)
 
 - Helpers: `current_branch`, `site_from_branch`, `version_from_files`

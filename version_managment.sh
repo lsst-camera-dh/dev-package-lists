@@ -20,9 +20,19 @@
 #     a snapshot to start a new cycle without releasing the current one.
 # A release can chain straight into creating the next snapshot in one run.
 #
+# An optional SECOND argument pins a start-point:
+#   version_managment.sh <site> <version>   (e.g. lsstcam 44.0.6)
+# The run then begins on, and sweeps across, <site>-software-<version> instead of
+# the newest branch — use it to release/advance an OLDER line while a newer cycle
+# branch already exists (e.g. cut 44.0.6 while 45.0.0 is in development). In this
+# pinned mode the switch-to-newest action is suppressed (the run stays on its
+# line and must not jump to the newer cycle branch). Omit it for the default
+# newest-branch behaviour.
+#
 # After a release or a (skip-)create, the tool offers to apply the SAME action
-# to the other sites (checkout each site's newest branch and repeat), reusing
-# the chosen version, then returns to the branch it started from.
+# to the other sites, reusing the chosen version, then returns to the branch it
+# started from. Each other site is taken to its newest branch — or, in pinned
+# mode, to that site's <pinned-version> branch (skipped if it has none).
 #
 # On exit — including a mid-run failure — the script returns to master, so it is
 # never left checked out on a site branch where this file is absent.
@@ -158,6 +168,14 @@ do_release() {
 # cross-site sweep can reuse the same version without re-prompting.
 CREATED_VERSION=""
 
+# Optional start-point pin (main's 2nd arg). Empty = "newest mode" (default):
+# start on, and sweep across, each site's newest branch. Non-empty = operate on
+# the <site>-software-$PINNED_VERSION line instead — used to release/advance an
+# older line (e.g. 44.0.6) while a newer cycle branch (e.g. 45.0.0) already
+# exists. When set, the switch-to-newest action is suppressed and the sweep
+# targets this version on every site.
+PINNED_VERSION=""
+
 # Create the next snapshot: new branch off current, patch-bump + -SNAPSHOT.
 # With a version argument, uses it directly (no prompt) — used by the sweep.
 do_create_snapshot() {
@@ -220,18 +238,30 @@ return_to_master() {
 # Each site is pulled --ff-only before acting; a site already in the target
 # state (e.g. not a -SNAPSHOT for a release) is reported and skipped, not fatal.
 sweep_other_sites() {
-    local action="$1" done_site="$2" version="${3:-}" site newest file_version
+    local action="$1" done_site="$2" version="${3:-}" site target file_version
     for site in "${SITES[@]}"; do
         [[ "$site" == "$done_site" ]] && continue
 
-        newest="$(newest_version_for_site "$site")"
-        info ""
-        if [[ -z "$newest" ]]; then
-            info "[$site] no branch found — skipping."
-            continue
+        # In pinned mode, act on the pinned line for every site (not its newest,
+        # which would be the newer cycle branch); else use the site's newest.
+        if [[ -n "$PINNED_VERSION" ]]; then
+            target="$PINNED_VERSION"
+            if ! branch_exists "$site" "$target"; then
+                info ""
+                info "[$site] no ${site}-software-${target} branch — skipping."
+                continue
+            fi
+        else
+            target="$(newest_version_for_site "$site")"
+            if [[ -z "$target" ]]; then
+                info ""
+                info "[$site] no branch found — skipping."
+                continue
+            fi
         fi
-        info "=== $site: switching to ${site}-software-${newest} ==="
-        do_switch "$site" "$newest"
+        info ""
+        info "=== $site: switching to ${site}-software-${target} ==="
+        do_switch "$site" "$target"
 
         file_version="$(version_from_files)"
         case "$action" in
@@ -320,11 +350,24 @@ main() {
     for s in "${SITES[@]}"; do [[ "$s" == "$site" ]] && valid=1; done
     [[ "$valid" == 1 ]] || die "unknown site '$site' (expected one of: ${SITES[*]})"
 
-    # Switch to this site's newest branch to begin (do_switch pulls --ff-only).
-    local newest branch_version
-    newest="$(newest_version_for_site "$site")"
-    [[ -n "$newest" ]] || die "no ${site}-software-<version> branch found"
-    do_switch "$site" "$newest"
+    # Optional 2nd arg pins a start-point: operate on <site>-software-<version>
+    # instead of the newest branch (to release/advance an older line while a
+    # newer cycle branch exists). Must be a real branch for this site.
+    local start_version="${2:-}"
+    if [[ -n "$start_version" ]]; then
+        [[ "$start_version" =~ ^${VERSION_RE}$ ]] \
+            || die "invalid start version '$start_version' (expected MAJOR.MINOR.PATCH)"
+        branch_exists "$site" "$start_version" \
+            || die "no ${site}-software-${start_version} branch (newest is ${site}-software-$(newest_version_for_site "$site"))"
+        PINNED_VERSION="$start_version"
+    fi
+
+    # Switch to the start branch to begin (do_switch pulls --ff-only): the pinned
+    # line when given, else this site's newest branch.
+    local start_branch_version branch_version
+    start_branch_version="${PINNED_VERSION:-$(newest_version_for_site "$site")}"
+    [[ -n "$start_branch_version" ]] || die "no ${site}-software-<version> branch found"
+    do_switch "$site" "$start_branch_version"
     branch="$(current_branch)"
     branch_version="$(version_from_branch "$branch")"
 
@@ -340,12 +383,15 @@ main() {
         info "Site:    $site"
         info "Files:   $file_version"
         info "Newest branch for site: ${site}-software-${newest}"
+        [[ -n "$PINNED_VERSION" ]] && info "Start point: pinned to ${PINNED_VERSION} (switch-to-newest disabled)"
         info ""
 
-        # Build the list of valid actions.
+        # Build the list of valid actions. Switch-to-newest is offered only in
+        # newest mode: a pinned run stays on its line and must not jump to the
+        # newer cycle branch.
         local -a labels=() actions=()
 
-        if version_gt "$newest" "$branch_version"; then
+        if [[ -z "$PINNED_VERSION" ]] && version_gt "$newest" "$branch_version"; then
             labels+=("Switch to newest branch (${site}-software-${newest})")
             actions+=("switch")
         fi
