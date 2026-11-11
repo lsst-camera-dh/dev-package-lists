@@ -14,6 +14,9 @@ Project documentation, organized by **lifecycle** (not by subject).
   ADR: `version_managment.sh` lives on and runs from `master`.
 - [`guides/version-managment-script.md`](guides/version-managment-script.md) —
   operator guide for the `version_managment.sh` release / next-snapshot driver.
+- [`guides/node-layout-and-symlinks.md`](guides/node-layout-and-symlinks.md) —
+  per-node `ccsApplications.txt` layout, the `symlink.etc` mechanism, and the
+  alias-symlink-vs-real-directory rule (when a node needs its own config).
 - [`workplans/version-managment-script.md`](workplans/version-managment-script.md) —
   design + handoff for `version_managment.sh` (**implemented**; records the
   resolved decisions and verification log).
